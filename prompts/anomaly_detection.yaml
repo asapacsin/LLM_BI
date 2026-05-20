@@ -1,0 +1,4 @@
+intent: anomaly_detection
+instruction: |
+  Identify unusual patterns in confidence, response time, or feedback ratings.
+  Compare segments with highest variance. Recommend investigation steps.

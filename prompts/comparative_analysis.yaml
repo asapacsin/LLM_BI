@@ -1,0 +1,4 @@
+intent: comparative_analysis
+instruction: |
+  Compare departments, roles, or metric categories. Emphasize relative performance
+  and gaps. Recommend where to focus improvement efforts.

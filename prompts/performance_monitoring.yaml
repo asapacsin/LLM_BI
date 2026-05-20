@@ -1,0 +1,5 @@
+intent: performance_monitoring
+instruction: |
+  Summarize KPI health and trends. Highlight average confidence, latency, and feedback.
+  Note department or role patterns if present in context. Flag risks if latency is high
+  or feedback is low.

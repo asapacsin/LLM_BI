@@ -1,0 +1,37 @@
+[
+  {
+    "query": "Forecast next quarter revenue",
+    "expected_intent": "forecasting",
+    "predicted_intent": "forecasting",
+    "title": "Next Quarter Revenue Forecast",
+    "summary": "Based on historical trends and departmental confidence levels, we anticipate a stable revenue trajectory for the upcoming quarter, with slight fluctuations expected due to seasonal patterns."
+  },
+  {
+    "query": "What is customer churn rate?",
+    "expected_intent": "performance_monitoring",
+    "predicted_intent": "performance_monitoring",
+    "title": "Customer Churn Rate Analysis",
+    "summary": "The customer churn rate analysis indicates a moderate level of confidence and highlights areas of concern regarding latency and feedback. The distribution of roles and departments shows engagement acr"
+  },
+  {
+    "query": "Compare sales performance by region",
+    "expected_intent": "comparative_analysis",
+    "predicted_intent": "comparative_analysis",
+    "title": "Sales Performance Comparison by Region",
+    "summary": "A comparative analysis of sales performance across regions reveals varying revenue contributions and highlights areas for improvement within the Marketing department."
+  },
+  {
+    "query": "Which campaign had highest ROI?",
+    "expected_intent": "operational_optimization",
+    "predicted_intent": "operational_optimization",
+    "title": "Maximizing ROI Through Campaign Optimization",
+    "summary": "Identifying the campaign with the highest ROI is critical for enhancing operational efficiency and maximizing returns. Current metrics indicate a strong potential for operational leverage across depar"
+  },
+  {
+    "query": "Show monthly revenue trend",
+    "expected_intent": "performance_monitoring",
+    "predicted_intent": "performance_monitoring",
+    "title": "Monthly Revenue Trend Analysis",
+    "summary": "The monthly revenue trend shows a generally positive trajectory with moderate confidence levels. However, latency is above the acceptable threshold, which could impact decision-making."
+  }
+]

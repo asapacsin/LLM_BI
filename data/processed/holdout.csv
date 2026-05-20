@@ -1,0 +1,641 @@
+interaction_id,timestamp,department,user_role,user_query,query_category,metrics_requested,analysis_type,bot_response_confidence,response_time_ms,user_feedback_rating,estimated_business_impact,intent,feedback_missing,impact_missing
+INT-102774,2025-06-30 08:13:31.858578,HR,Manager,Show monthly revenue trend,Sales,ROI,Descriptive,0.66,1510,2.0,Medium,performance_monitoring,False,False
+INT-102752,2025-04-16 15:05:31.858538,Sales,Executive,Which campaign had highest ROI?,Sales,ROI,Trend Analysis,0.8,1407,3.0,,operational_optimization,False,True
+INT-101846,2025-07-09 09:32:31.856128,Sales,Executive,What is customer churn rate?,Revenue,ROI,Predictive,0.89,795,,High,performance_monitoring,True,False
+INT-101558,2025-04-18 07:46:31.855363,Sales,Analyst,Show monthly revenue trend,Sales,Revenue,Predictive,0.79,1002,4.0,Low,performance_monitoring,False,False
+INT-101962,2025-09-13 05:55:31.856563,Operations,Intern,Compare sales performance by region,Customer,Profit Margin,Predictive,0.71,2070,5.0,Low,comparative_analysis,False,False
+INT-102386,2026-02-06 12:15:31.857664,HR,Manager,Forecast next quarter revenue,Sales,Revenue,Predictive,0.87,2204,2.0,Low,forecasting,False,False
+INT-102659,2025-09-22 08:17:31.858327,Finance,Executive,Forecast next quarter revenue,Sales,Churn Rate,Descriptive,0.92,1139,5.0,Medium,forecasting,False,False
+INT-102362,2025-06-26 10:53:31.857609,Operations,Analyst,Show monthly revenue trend,Sales,Churn Rate,Predictive,0.83,1047,2.0,Low,performance_monitoring,False,False
+INT-100804,2025-03-08 17:26:31.853740,Marketing,Intern,Show monthly revenue trend,Sales,Profit Margin,Descriptive,0.87,2271,3.0,,performance_monitoring,False,True
+INT-101693,2025-04-02 18:06:31.855645,Operations,Analyst,What is customer churn rate?,Sales,Conversion Rate,Trend Analysis,0.98,2484,3.0,Low,performance_monitoring,False,False
+INT-102524,2025-10-21 20:57:31.858041,HR,Intern,Forecast next quarter revenue,Revenue,Profit Margin,Predictive,0.63,1752,4.0,Medium,forecasting,False,False
+INT-100986,2025-05-15 18:31:31.854108,Operations,Executive,Which campaign had highest ROI?,Marketing,Churn Rate,Predictive,0.71,1161,,Low,operational_optimization,True,False
+INT-100568,2025-11-11 02:55:31.853131,HR,Executive,Forecast next quarter revenue,Revenue,Conversion Rate,Descriptive,0.67,2177,2.0,High,forecasting,False,False
+INT-102349,2025-08-17 01:00:31.857585,Operations,Analyst,What is customer churn rate?,Revenue,Churn Rate,Trend Analysis,0.74,782,1.0,Medium,performance_monitoring,False,False
+INT-100454,2025-04-26 22:34:31.852888,HR,Manager,Show monthly revenue trend,Revenue,Profit Margin,Predictive,0.64,596,2.0,Medium,performance_monitoring,False,False
+INT-102361,2025-04-21 13:13:31.857607,Operations,Analyst,What is customer churn rate?,Revenue,Profit Margin,Trend Analysis,0.87,1727,5.0,Medium,performance_monitoring,False,False
+INT-101385,2026-01-07 04:54:31.854957,Operations,Manager,Compare sales performance by region,Marketing,Churn Rate,Predictive,0.74,215,2.0,Medium,comparative_analysis,False,False
+INT-102060,2025-12-20 14:56:31.856938,Operations,Intern,Show monthly revenue trend,Sales,Churn Rate,Descriptive,0.69,1822,,High,performance_monitoring,True,False
+INT-102118,2025-09-29 22:27:31.857083,Finance,Executive,What is customer churn rate?,Finance,Churn Rate,Descriptive,0.61,1171,4.0,,performance_monitoring,False,True
+INT-102629,2025-10-07 02:34:31.858272,Sales,Analyst,Which campaign had highest ROI?,Marketing,Conversion Rate,Predictive,0.64,324,4.0,,operational_optimization,False,True
+INT-101939,2025-05-18 03:36:31.856460,Marketing,Intern,Which campaign had highest ROI?,Sales,Revenue,Trend Analysis,0.75,1402,2.0,Medium,operational_optimization,False,False
+INT-102423,2025-05-03 17:29:31.857768,Marketing,Intern,What is customer churn rate?,Marketing,Conversion Rate,Descriptive,0.98,528,4.0,Medium,performance_monitoring,False,False
+INT-102882,2025-11-03 02:46:31.858811,Marketing,Intern,What is customer churn rate?,Sales,Revenue,Descriptive,0.79,1081,3.0,Low,performance_monitoring,False,False
+INT-102047,2025-10-02 01:28:31.856901,Marketing,Analyst,Forecast next quarter revenue,Revenue,Conversion Rate,Predictive,0.83,2343,,Low,forecasting,True,False
+INT-101795,2025-09-10 02:59:31.856029,Operations,Executive,Compare sales performance by region,Marketing,Churn Rate,Trend Analysis,0.85,1915,3.0,Medium,comparative_analysis,False,False
+INT-100030,2025-03-22 22:12:31.851977,Finance,Executive,Forecast next quarter revenue,Marketing,ROI,Descriptive,0.63,751,3.0,Medium,forecasting,False,False
+INT-102112,2026-01-13 12:19:31.857071,Sales,Executive,Compare sales performance by region,Customer,ROI,Descriptive,0.94,1265,4.0,Low,comparative_analysis,False,False
+INT-100360,2026-01-18 11:43:31.852681,HR,Analyst,Show monthly revenue trend,Customer,Profit Margin,Trend Analysis,0.61,319,1.0,Medium,performance_monitoring,False,False
+INT-102718,2025-05-02 05:21:31.858453,Operations,Intern,Forecast next quarter revenue,Customer,ROI,Predictive,0.88,2157,,Medium,forecasting,True,False
+INT-100048,2025-03-03 05:55:31.852014,Marketing,Executive,Forecast next quarter revenue,Marketing,Revenue,Predictive,0.61,1055,4.0,Medium,forecasting,False,False
+INT-102789,2025-11-24 14:20:31.858606,Sales,Manager,Forecast next quarter revenue,Sales,Revenue,Descriptive,0.88,1247,5.0,Medium,forecasting,False,False
+INT-101203,2025-10-20 09:52:31.854554,Sales,Analyst,Show monthly revenue trend,Finance,Churn Rate,Trend Analysis,0.69,768,3.0,Medium,performance_monitoring,False,False
+INT-102899,2025-07-14 01:25:31.858853,HR,Executive,Compare sales performance by region,Revenue,Churn Rate,Predictive,0.64,1972,5.0,Medium,comparative_analysis,False,False
+INT-102501,2025-05-30 12:19:31.857960,Operations,Executive,Which campaign had highest ROI?,Marketing,Profit Margin,Descriptive,0.76,1148,,Medium,operational_optimization,True,False
+INT-101133,2025-03-21 01:40:31.854420,HR,Manager,Show monthly revenue trend,Revenue,Churn Rate,Descriptive,0.67,908,2.0,Medium,performance_monitoring,False,False
+INT-101418,2025-09-06 04:00:31.855060,HR,Executive,Which campaign had highest ROI?,Marketing,Revenue,Predictive,0.73,1984,4.0,Low,operational_optimization,False,False
+INT-102551,2025-04-03 05:56:31.858098,Operations,Manager,Compare sales performance by region,Marketing,ROI,Trend Analysis,0.9,1295,3.0,High,comparative_analysis,False,False
+INT-102992,2025-10-23 07:29:31.859086,Sales,Executive,What is customer churn rate?,Finance,Churn Rate,Predictive,0.8,1260,2.0,Medium,performance_monitoring,False,False
+INT-102287,2025-07-17 07:04:31.857470,Marketing,Intern,Which campaign had highest ROI?,Finance,Profit Margin,Descriptive,0.76,461,3.0,Medium,operational_optimization,False,False
+INT-102319,2025-06-01 19:16:31.857529,Finance,Intern,Forecast next quarter revenue,Finance,Conversion Rate,Predictive,0.93,1559,1.0,Medium,forecasting,False,False
+INT-100000,2025-08-12 08:29:31.851880,HR,Intern,Forecast next quarter revenue,Revenue,Revenue,Descriptive,0.73,2381,4.0,High,forecasting,False,False
+INT-100433,2025-09-24 18:18:31.852840,Finance,Executive,Compare sales performance by region,Marketing,ROI,Predictive,0.91,1785,4.0,Medium,comparative_analysis,False,False
+INT-101206,2025-03-19 00:48:31.854560,HR,Analyst,Forecast next quarter revenue,Revenue,Profit Margin,Predictive,0.68,350,2.0,High,forecasting,False,False
+INT-102938,2026-01-22 21:43:31.858931,Sales,Manager,Show monthly revenue trend,Sales,ROI,Trend Analysis,0.64,917,1.0,Medium,performance_monitoring,False,False
+INT-100533,2026-01-17 03:58:31.853045,Operations,Intern,What is customer churn rate?,Finance,Profit Margin,Trend Analysis,0.81,2410,3.0,,performance_monitoring,False,True
+INT-101000,2025-07-05 13:41:31.854135,HR,Intern,Show monthly revenue trend,Marketing,Conversion Rate,Trend Analysis,0.82,1152,5.0,Low,performance_monitoring,False,False
+INT-101520,2025-12-12 08:19:31.855293,HR,Analyst,Compare sales performance by region,Revenue,Conversion Rate,Predictive,0.83,1034,5.0,High,comparative_analysis,False,False
+INT-102919,2025-10-13 07:44:31.858890,Finance,Analyst,Show monthly revenue trend,Sales,Churn Rate,Descriptive,0.61,649,2.0,Low,performance_monitoring,False,False
+INT-101152,2025-07-09 22:58:31.854459,Finance,Executive,Which campaign had highest ROI?,Revenue,Profit Margin,Predictive,0.74,2210,,Low,operational_optimization,True,False
+INT-102562,2025-05-30 05:02:31.858145,Marketing,Executive,Which campaign had highest ROI?,Revenue,ROI,Trend Analysis,0.6,2122,5.0,High,operational_optimization,False,False
+INT-102847,2025-04-11 00:13:31.858736,HR,Executive,What is customer churn rate?,Sales,ROI,Trend Analysis,0.83,550,4.0,Medium,performance_monitoring,False,False
+INT-102418,2025-03-12 05:03:31.857742,Operations,Analyst,What is customer churn rate?,Revenue,Churn Rate,Predictive,0.67,1552,2.0,Medium,performance_monitoring,False,False
+INT-102337,2025-09-06 00:35:31.857563,HR,Intern,What is customer churn rate?,Finance,Conversion Rate,Predictive,0.89,1020,,,performance_monitoring,True,True
+INT-103005,2025-11-24 02:04:31.859134,HR,Executive,Which campaign had highest ROI?,Marketing,Conversion Rate,Descriptive,0.98,2189,3.0,Medium,operational_optimization,False,False
+INT-102575,2025-04-08 04:57:31.858168,Operations,Manager,Show monthly revenue trend,Marketing,Conversion Rate,Trend Analysis,0.86,378,1.0,High,performance_monitoring,False,False
+INT-102499,2025-06-30 02:06:31.857953,Operations,Manager,Forecast next quarter revenue,Marketing,Profit Margin,Predictive,0.97,2052,3.0,Medium,forecasting,False,False
+INT-102620,2026-01-04 06:38:31.858253,Sales,Executive,Forecast next quarter revenue,Customer,Revenue,Descriptive,0.69,2126,3.0,Medium,forecasting,False,False
+INT-101543,2025-05-07 17:18:31.855336,Finance,Analyst,Forecast next quarter revenue,Finance,Conversion Rate,Predictive,0.89,1131,3.0,High,forecasting,False,False
+INT-100249,2025-11-16 15:39:31.852470,Finance,Intern,Forecast next quarter revenue,Sales,Profit Margin,Trend Analysis,0.92,1856,3.0,High,forecasting,False,False
+INT-100910,2026-02-02 20:34:31.853956,HR,Intern,What is customer churn rate?,Revenue,ROI,Descriptive,0.86,1603,5.0,High,performance_monitoring,False,False
+INT-101656,2025-05-08 10:37:31.855578,Marketing,Executive,Compare sales performance by region,Marketing,ROI,Trend Analysis,0.62,2334,4.0,Medium,comparative_analysis,False,False
+INT-100806,2025-11-01 06:36:31.853744,Finance,Manager,Show monthly revenue trend,Marketing,Profit Margin,Descriptive,0.64,1461,4.0,Low,performance_monitoring,False,False
+INT-100707,2025-07-14 20:13:31.853527,Finance,Intern,Show monthly revenue trend,Revenue,Revenue,Descriptive,0.85,1611,1.0,Low,performance_monitoring,False,False
+INT-103092,2025-07-28 15:19:31.859342,Operations,Manager,Show monthly revenue trend,Customer,Profit Margin,Trend Analysis,0.8,1689,3.0,High,performance_monitoring,False,False
+INT-102350,2025-09-01 09:04:31.857587,Operations,Executive,Which campaign had highest ROI?,Marketing,Revenue,Descriptive,0.82,2155,,High,operational_optimization,True,False
+INT-101971,2025-03-11 03:10:31.856599,Operations,Manager,What is customer churn rate?,Finance,Profit Margin,Predictive,0.79,806,5.0,Low,performance_monitoring,False,False
+INT-102203,2026-01-16 10:46:31.857261,Operations,Analyst,Which campaign had highest ROI?,Sales,Conversion Rate,Predictive,0.88,648,2.0,,operational_optimization,False,True
+INT-101644,2026-02-05 08:55:31.855536,Sales,Executive,Compare sales performance by region,Marketing,Conversion Rate,Descriptive,0.65,1565,2.0,Medium,comparative_analysis,False,False
+INT-100939,2025-10-24 06:59:31.854020,Sales,Manager,Which campaign had highest ROI?,Customer,Profit Margin,Descriptive,0.75,1511,1.0,High,operational_optimization,False,False
+INT-101542,2025-07-28 19:04:31.855334,Finance,Manager,Show monthly revenue trend,Sales,Revenue,Descriptive,0.91,1341,3.0,High,performance_monitoring,False,False
+INT-101071,2025-04-29 00:55:31.854281,Finance,Intern,Forecast next quarter revenue,Sales,ROI,Predictive,0.68,1259,4.0,Low,forecasting,False,False
+INT-103173,2025-04-20 19:32:31.859594,HR,Analyst,What is customer churn rate?,Finance,Revenue,Descriptive,0.91,2189,2.0,Medium,performance_monitoring,False,False
+INT-100111,2025-09-20 08:36:31.852143,Finance,Executive,Compare sales performance by region,Customer,ROI,Predictive,0.67,2425,5.0,High,comparative_analysis,False,False
+INT-100013,2025-04-09 10:10:31.851944,Marketing,Analyst,Which campaign had highest ROI?,Marketing,Profit Margin,Predictive,0.94,795,3.0,Low,operational_optimization,False,False
+INT-101188,2026-01-08 18:12:31.854525,Marketing,Manager,Show monthly revenue trend,Sales,Churn Rate,Descriptive,0.77,1990,3.0,Medium,performance_monitoring,False,False
+INT-100628,2025-12-30 02:54:31.853250,HR,Intern,Compare sales performance by region,Finance,Conversion Rate,Trend Analysis,0.82,1947,2.0,High,comparative_analysis,False,False
+INT-102610,2025-09-24 15:31:31.858235,Operations,Manager,Forecast next quarter revenue,Finance,ROI,Trend Analysis,0.85,2356,4.0,,forecasting,False,True
+INT-101183,2025-04-09 08:46:31.854515,Marketing,Intern,Forecast next quarter revenue,Marketing,ROI,Trend Analysis,0.69,1956,3.0,Medium,forecasting,False,False
+INT-100099,2025-04-27 05:08:31.852121,Sales,Analyst,Compare sales performance by region,Revenue,Profit Margin,Predictive,0.82,797,2.0,Low,comparative_analysis,False,False
+INT-103089,2026-01-11 10:41:31.859333,Sales,Executive,Show monthly revenue trend,Customer,Churn Rate,Trend Analysis,0.77,418,3.0,High,performance_monitoring,False,False
+INT-102381,2025-11-19 17:45:31.857655,Sales,Analyst,Which campaign had highest ROI?,Marketing,ROI,Trend Analysis,0.6,869,4.0,,operational_optimization,False,True
+INT-102395,2025-08-31 18:00:31.857682,Finance,Intern,Forecast next quarter revenue,Revenue,Churn Rate,Predictive,0.62,2331,,Medium,forecasting,True,False
+INT-100444,2025-07-18 09:40:31.852860,Operations,Manager,Compare sales performance by region,Marketing,ROI,Descriptive,0.7,2488,5.0,Medium,comparative_analysis,False,False
+INT-101069,2025-10-17 10:43:31.854278,Sales,Manager,Compare sales performance by region,Sales,Conversion Rate,Predictive,0.79,1666,5.0,Medium,comparative_analysis,False,False
+INT-102466,2025-09-19 20:23:31.857883,Sales,Manager,Forecast next quarter revenue,Marketing,ROI,Predictive,0.74,1259,2.0,,forecasting,False,True
+INT-100777,2025-06-07 23:18:31.853685,Operations,Executive,What is customer churn rate?,Marketing,Revenue,Predictive,0.96,1619,1.0,High,performance_monitoring,False,False
+INT-101589,2025-08-02 22:54:31.855419,HR,Intern,Forecast next quarter revenue,Revenue,Churn Rate,Predictive,0.64,2351,5.0,High,forecasting,False,False
+INT-101222,2025-08-25 06:15:31.854601,HR,Intern,Forecast next quarter revenue,Sales,Profit Margin,Predictive,0.63,463,2.0,Medium,forecasting,False,False
+INT-102252,2025-11-20 05:58:31.857362,Sales,Analyst,Compare sales performance by region,Sales,Churn Rate,Descriptive,0.92,465,4.0,Medium,comparative_analysis,False,False
+INT-103024,2026-01-09 10:31:31.859176,Operations,Intern,Which campaign had highest ROI?,Marketing,Revenue,Descriptive,0.84,306,,Medium,operational_optimization,True,False
+INT-101240,2026-02-03 15:27:31.854638,Sales,Analyst,Show monthly revenue trend,Revenue,Profit Margin,Descriptive,0.89,1700,1.0,Medium,performance_monitoring,False,False
+INT-100866,2025-12-08 07:29:31.853870,HR,Executive,Forecast next quarter revenue,Marketing,Revenue,Descriptive,0.8,988,5.0,,forecasting,False,True
+INT-102739,2026-01-03 19:05:31.858514,HR,Analyst,Which campaign had highest ROI?,Sales,Conversion Rate,Descriptive,0.9,2441,2.0,Medium,operational_optimization,False,False
+INT-102892,2025-06-26 06:23:31.858840,Sales,Executive,Compare sales performance by region,Revenue,ROI,Trend Analysis,0.8,341,4.0,Medium,comparative_analysis,False,False
+INT-100578,2025-11-07 20:34:31.853150,Marketing,Analyst,Forecast next quarter revenue,Revenue,Revenue,Predictive,0.89,910,3.0,Medium,forecasting,False,False
+INT-100704,2025-09-22 17:24:31.853521,Sales,Manager,What is customer churn rate?,Marketing,Revenue,Predictive,0.62,2050,4.0,Medium,performance_monitoring,False,False
+INT-103170,2026-01-08 23:37:31.859588,Marketing,Intern,What is customer churn rate?,Finance,Churn Rate,Predictive,0.77,871,2.0,Low,performance_monitoring,False,False
+INT-101065,2025-08-20 13:32:31.854271,HR,Executive,Compare sales performance by region,Customer,Profit Margin,Trend Analysis,0.72,2044,2.0,Medium,comparative_analysis,False,False
+INT-101043,2025-09-29 22:58:31.854230,Sales,Manager,Show monthly revenue trend,Sales,Churn Rate,Predictive,0.66,1256,4.0,Medium,performance_monitoring,False,False
+INT-103040,2025-05-05 00:00:31.859214,Operations,Intern,Show monthly revenue trend,Customer,Conversion Rate,Predictive,0.83,2490,2.0,Medium,performance_monitoring,False,False
+INT-102036,2025-04-09 13:57:31.856868,HR,Executive,Forecast next quarter revenue,Finance,ROI,Descriptive,0.63,988,4.0,,forecasting,False,True
+INT-101945,2025-09-06 05:13:31.856481,Sales,Executive,What is customer churn rate?,Marketing,ROI,Predictive,0.8,1625,3.0,Medium,performance_monitoring,False,False
+INT-102871,2025-07-29 07:45:31.858786,Sales,Executive,Forecast next quarter revenue,Customer,Churn Rate,Descriptive,0.78,1299,2.0,Medium,forecasting,False,False
+INT-100782,2025-07-26 05:38:31.853695,Sales,Manager,What is customer churn rate?,Finance,Profit Margin,Trend Analysis,0.74,1347,5.0,Medium,performance_monitoring,False,False
+INT-101515,2025-06-07 21:55:31.855284,HR,Executive,What is customer churn rate?,Customer,Profit Margin,Predictive,0.81,985,4.0,Medium,performance_monitoring,False,False
+INT-103003,2026-02-04 01:20:31.859127,Operations,Executive,Forecast next quarter revenue,Sales,Profit Margin,Descriptive,0.8,1909,3.0,Low,forecasting,False,False
+INT-100430,2025-05-19 04:21:31.852834,Marketing,Executive,Show monthly revenue trend,Revenue,ROI,Predictive,0.91,972,5.0,,performance_monitoring,False,True
+INT-101355,2026-01-04 21:40:31.854883,HR,Manager,Show monthly revenue trend,Customer,Conversion Rate,Trend Analysis,0.66,960,1.0,High,performance_monitoring,False,False
+INT-102502,2025-05-17 14:18:31.857963,HR,Analyst,Compare sales performance by region,Finance,Profit Margin,Trend Analysis,0.63,1160,4.0,Medium,comparative_analysis,False,False
+INT-100724,2025-11-12 12:48:31.853564,Sales,Intern,What is customer churn rate?,Sales,Profit Margin,Predictive,0.88,1532,3.0,Medium,performance_monitoring,False,False
+INT-102151,2025-12-20 06:53:31.857153,HR,Intern,Forecast next quarter revenue,Revenue,Conversion Rate,Trend Analysis,0.84,2306,4.0,Low,forecasting,False,False
+INT-100718,2025-08-08 19:34:31.853553,Marketing,Executive,Compare sales performance by region,Revenue,Conversion Rate,Predictive,0.89,2272,1.0,High,comparative_analysis,False,False
+INT-102525,2025-11-29 22:13:31.858044,Marketing,Executive,Compare sales performance by region,Finance,Profit Margin,Descriptive,0.77,1235,4.0,,comparative_analysis,False,True
+INT-101424,2026-02-05 23:11:31.855079,Finance,Intern,Compare sales performance by region,Marketing,Profit Margin,Descriptive,0.61,1375,2.0,Low,comparative_analysis,False,False
+INT-102970,2025-03-03 04:17:31.859019,Finance,Manager,What is customer churn rate?,Sales,Profit Margin,Trend Analysis,0.93,2470,4.0,High,performance_monitoring,False,False
+INT-101419,2025-07-12 19:20:31.855063,Marketing,Analyst,What is customer churn rate?,Finance,ROI,Predictive,0.73,2008,2.0,Medium,performance_monitoring,False,False
+INT-100754,2025-12-01 21:07:31.853619,Finance,Manager,Compare sales performance by region,Revenue,ROI,Trend Analysis,0.62,2225,4.0,Medium,comparative_analysis,False,False
+INT-102637,2025-06-11 15:51:31.858287,Finance,Executive,What is customer churn rate?,Finance,Conversion Rate,Trend Analysis,0.8,2043,1.0,Medium,performance_monitoring,False,False
+INT-100544,2025-10-17 21:31:31.853068,Sales,Analyst,Which campaign had highest ROI?,Sales,Churn Rate,Predictive,0.93,1265,3.0,Medium,operational_optimization,False,False
+INT-102000,2025-12-11 13:15:31.856791,HR,Executive,Compare sales performance by region,Finance,ROI,Trend Analysis,0.71,1982,3.0,High,comparative_analysis,False,False
+INT-100361,2025-03-06 22:16:31.852683,HR,Manager,Forecast next quarter revenue,Customer,Conversion Rate,Descriptive,0.65,1875,2.0,Low,forecasting,False,False
+INT-100286,2025-05-28 04:33:31.852539,HR,Intern,Which campaign had highest ROI?,Sales,Churn Rate,Predictive,0.76,1401,3.0,High,operational_optimization,False,False
+INT-100318,2025-12-31 06:33:31.852603,Marketing,Analyst,Forecast next quarter revenue,Customer,Conversion Rate,Predictive,0.78,1924,5.0,Medium,forecasting,False,False
+INT-101990,2025-04-23 00:33:31.856676,Operations,Intern,Forecast next quarter revenue,Finance,Profit Margin,Trend Analysis,0.61,847,4.0,High,forecasting,False,False
+INT-102365,2025-06-05 18:54:31.857620,Marketing,Intern,What is customer churn rate?,Customer,Conversion Rate,Predictive,0.98,1510,2.0,Medium,performance_monitoring,False,False
+INT-102179,2025-12-29 23:45:31.857213,Finance,Intern,Compare sales performance by region,Customer,Conversion Rate,Trend Analysis,0.82,979,5.0,Medium,comparative_analysis,False,False
+INT-102636,2025-09-17 15:58:31.858285,Marketing,Analyst,Show monthly revenue trend,Marketing,Churn Rate,Predictive,0.6,1576,5.0,High,performance_monitoring,False,False
+INT-100448,2025-04-01 20:15:31.852868,Sales,Executive,Forecast next quarter revenue,Customer,ROI,Predictive,0.97,2048,5.0,Medium,forecasting,False,False
+INT-101307,2025-11-30 20:25:31.854792,Sales,Executive,Forecast next quarter revenue,Customer,Churn Rate,Predictive,0.81,1581,2.0,Medium,forecasting,False,False
+INT-101400,2025-10-29 17:03:31.855002,Finance,Analyst,What is customer churn rate?,Sales,Revenue,Predictive,0.74,243,5.0,Medium,performance_monitoring,False,False
+INT-101966,2025-10-13 04:14:31.856590,Marketing,Analyst,What is customer churn rate?,Marketing,Conversion Rate,Descriptive,0.65,1598,3.0,Medium,performance_monitoring,False,False
+INT-102330,2025-12-08 05:11:31.857550,Sales,Analyst,Show monthly revenue trend,Sales,Conversion Rate,Descriptive,0.76,1528,2.0,,performance_monitoring,False,True
+INT-101783,2025-10-24 07:06:31.855813,Operations,Manager,Which campaign had highest ROI?,Sales,ROI,Descriptive,0.97,873,4.0,,operational_optimization,False,True
+INT-100740,2025-05-16 20:27:31.853592,Marketing,Executive,Forecast next quarter revenue,Sales,Revenue,Predictive,0.98,2272,3.0,High,forecasting,False,False
+INT-100309,2025-07-13 07:13:31.852586,Operations,Executive,Which campaign had highest ROI?,Marketing,Churn Rate,Predictive,0.82,1306,,Medium,operational_optimization,True,False
+INT-101146,2025-10-07 03:33:31.854448,Finance,Analyst,Which campaign had highest ROI?,Marketing,Conversion Rate,Trend Analysis,0.79,1397,5.0,Medium,operational_optimization,False,False
+INT-103098,2025-08-19 03:28:31.859359,Marketing,Intern,Compare sales performance by region,Sales,ROI,Descriptive,0.75,1013,1.0,Medium,comparative_analysis,False,False
+INT-102353,2025-06-16 10:20:31.857592,Finance,Intern,Which campaign had highest ROI?,Finance,Churn Rate,Trend Analysis,0.89,2475,3.0,Low,operational_optimization,False,False
+INT-100169,2025-12-17 14:35:31.852281,HR,Intern,Compare sales performance by region,Revenue,ROI,Predictive,0.92,1058,4.0,Medium,comparative_analysis,False,False
+INT-102854,2025-11-24 22:41:31.858749,Operations,Executive,Compare sales performance by region,Sales,Churn Rate,Trend Analysis,0.65,1022,2.0,,comparative_analysis,False,True
+INT-102312,2025-05-02 13:21:31.857517,Sales,Manager,Show monthly revenue trend,Revenue,Profit Margin,Trend Analysis,0.92,1971,5.0,Medium,performance_monitoring,False,False
+INT-101559,2025-09-02 05:37:31.855364,Marketing,Analyst,Forecast next quarter revenue,Revenue,Conversion Rate,Predictive,0.63,572,1.0,High,forecasting,False,False
+INT-101234,2025-06-23 03:06:31.854627,Marketing,Manager,Show monthly revenue trend,Sales,ROI,Descriptive,0.77,1889,5.0,High,performance_monitoring,False,False
+INT-101631,2026-01-28 23:25:31.855508,Marketing,Manager,What is customer churn rate?,Finance,Profit Margin,Predictive,0.97,823,3.0,Low,performance_monitoring,False,False
+INT-102226,2026-01-05 12:28:31.857313,Finance,Intern,What is customer churn rate?,Customer,ROI,Predictive,0.66,985,3.0,High,performance_monitoring,False,False
+INT-101293,2025-05-01 23:50:31.854754,Marketing,Manager,Show monthly revenue trend,Finance,Revenue,Predictive,0.91,413,5.0,Low,performance_monitoring,False,False
+INT-101211,2025-12-04 10:26:31.854569,Finance,Intern,What is customer churn rate?,Sales,Conversion Rate,Trend Analysis,0.98,1995,5.0,,performance_monitoring,False,True
+INT-101786,2025-06-02 04:50:31.855822,Marketing,Analyst,Which campaign had highest ROI?,Revenue,Revenue,Predictive,0.64,792,1.0,,operational_optimization,False,True
+INT-100304,2026-01-24 19:35:31.852576,Finance,Analyst,Compare sales performance by region,Finance,Churn Rate,Descriptive,0.83,1931,5.0,Medium,comparative_analysis,False,False
+INT-103125,2025-05-18 10:19:31.859442,Marketing,Analyst,What is customer churn rate?,Customer,Revenue,Trend Analysis,0.64,1894,5.0,Medium,performance_monitoring,False,False
+INT-100593,2026-01-03 21:04:31.853185,Marketing,Manager,Forecast next quarter revenue,Customer,Conversion Rate,Descriptive,0.93,918,1.0,Medium,forecasting,False,False
+INT-100732,2025-03-30 16:05:31.853578,HR,Intern,Which campaign had highest ROI?,Finance,Revenue,Predictive,0.95,1989,2.0,Medium,operational_optimization,False,False
+INT-102291,2025-10-11 13:26:31.857478,Finance,Intern,Show monthly revenue trend,Customer,Profit Margin,Trend Analysis,0.95,1804,4.0,Low,performance_monitoring,False,False
+INT-102866,2025-10-27 15:52:31.858771,Finance,Executive,Forecast next quarter revenue,Marketing,Churn Rate,Descriptive,0.81,1365,4.0,Medium,forecasting,False,False
+INT-100892,2025-10-12 16:47:31.853921,Marketing,Intern,What is customer churn rate?,Sales,Churn Rate,Trend Analysis,0.99,2266,3.0,Low,performance_monitoring,False,False
+INT-100862,2025-05-04 17:54:31.853863,Finance,Analyst,What is customer churn rate?,Customer,ROI,Descriptive,0.65,319,3.0,Medium,performance_monitoring,False,False
+INT-100934,2025-07-29 15:50:31.854011,Operations,Intern,What is customer churn rate?,Marketing,ROI,Predictive,0.85,900,3.0,Low,performance_monitoring,False,False
+INT-101627,2025-03-29 23:02:31.855500,Sales,Analyst,Show monthly revenue trend,Customer,Revenue,Descriptive,0.69,2209,2.0,High,performance_monitoring,False,False
+INT-103145,2025-12-17 04:39:31.859512,Sales,Intern,Show monthly revenue trend,Marketing,Revenue,Predictive,0.98,1611,3.0,Medium,performance_monitoring,False,False
+INT-101927,2025-05-18 03:35:31.856413,Finance,Analyst,What is customer churn rate?,Revenue,Revenue,Predictive,0.81,351,4.0,Medium,performance_monitoring,False,False
+INT-101895,2025-05-14 09:33:31.856302,Finance,Executive,Compare sales performance by region,Finance,Profit Margin,Predictive,0.75,2165,2.0,High,comparative_analysis,False,False
+INT-101238,2025-07-12 04:10:31.854634,Sales,Intern,Show monthly revenue trend,Customer,Profit Margin,Predictive,0.87,1676,4.0,Medium,performance_monitoring,False,False
+INT-101423,2025-06-01 16:45:31.855076,Finance,Intern,Forecast next quarter revenue,Sales,Churn Rate,Descriptive,0.99,751,3.0,High,forecasting,False,False
+INT-101850,2025-04-08 22:06:31.856135,Marketing,Analyst,Compare sales performance by region,Revenue,ROI,Predictive,0.62,324,3.0,Low,comparative_analysis,False,False
+INT-103198,2025-03-29 12:00:31.859640,Sales,Manager,What is customer churn rate?,Sales,Profit Margin,Predictive,0.65,1373,4.0,Low,performance_monitoring,False,False
+INT-101810,2025-04-22 08:23:31.856062,Marketing,Manager,Compare sales performance by region,Revenue,Churn Rate,Predictive,0.74,2333,4.0,Medium,comparative_analysis,False,False
+INT-100132,2025-04-12 07:22:31.852186,HR,Analyst,Which campaign had highest ROI?,Sales,ROI,Trend Analysis,0.68,726,4.0,Medium,operational_optimization,False,False
+INT-100171,2025-11-23 17:11:31.852288,Sales,Analyst,Forecast next quarter revenue,Finance,Profit Margin,Descriptive,0.72,1531,4.0,High,forecasting,False,False
+INT-100446,2025-03-05 03:26:31.852864,Finance,Intern,What is customer churn rate?,Customer,ROI,Predictive,0.9,943,5.0,Medium,performance_monitoring,False,False
+INT-100417,2025-04-27 16:05:31.852810,Marketing,Executive,Compare sales performance by region,Marketing,ROI,Descriptive,0.79,1646,1.0,Medium,comparative_analysis,False,False
+INT-102385,2025-04-07 11:45:31.857663,Sales,Intern,Compare sales performance by region,Customer,Profit Margin,Predictive,0.64,1250,3.0,High,comparative_analysis,False,False
+INT-100984,2025-08-22 07:02:31.854104,Finance,Analyst,Compare sales performance by region,Finance,Revenue,Predictive,0.71,1203,3.0,,comparative_analysis,False,True
+INT-100860,2025-04-06 13:17:31.853854,Sales,Executive,What is customer churn rate?,Sales,Churn Rate,Descriptive,0.84,1786,2.0,Medium,performance_monitoring,False,False
+INT-100445,2025-03-03 06:06:31.852862,HR,Intern,Compare sales performance by region,Customer,Revenue,Trend Analysis,0.9,539,3.0,Low,comparative_analysis,False,False
+INT-100920,2026-02-02 19:03:31.853985,Finance,Executive,Forecast next quarter revenue,Marketing,Churn Rate,Trend Analysis,0.85,1378,1.0,High,forecasting,False,False
+INT-100341,2025-11-21 12:03:31.852645,HR,Manager,Forecast next quarter revenue,Finance,ROI,Descriptive,0.81,1941,3.0,Medium,forecasting,False,False
+INT-101781,2025-04-29 21:01:31.855807,HR,Intern,Which campaign had highest ROI?,Sales,Revenue,Descriptive,0.97,588,4.0,Medium,operational_optimization,False,False
+INT-102324,2025-10-19 18:08:31.857539,Marketing,Analyst,Forecast next quarter revenue,Finance,Churn Rate,Predictive,0.75,1886,3.0,Medium,forecasting,False,False
+INT-100012,2025-12-17 19:15:31.851942,Operations,Executive,Show monthly revenue trend,Marketing,Revenue,Trend Analysis,0.72,1192,5.0,High,performance_monitoring,False,False
+INT-102435,2025-09-16 08:09:31.857803,Operations,Manager,Which campaign had highest ROI?,Customer,Profit Margin,Predictive,0.76,1820,3.0,Medium,operational_optimization,False,False
+INT-102011,2025-06-28 08:02:31.856811,Marketing,Executive,What is customer churn rate?,Customer,Profit Margin,Predictive,0.66,2185,2.0,,performance_monitoring,False,True
+INT-101622,2025-10-07 18:12:31.855491,Marketing,Executive,What is customer churn rate?,Customer,Churn Rate,Trend Analysis,0.86,1924,5.0,,performance_monitoring,False,True
+INT-101261,2025-08-28 22:16:31.854689,Sales,Executive,Which campaign had highest ROI?,Revenue,ROI,Descriptive,0.8,629,4.0,Medium,operational_optimization,False,False
+INT-100810,2025-08-13 12:36:31.853751,HR,Manager,Compare sales performance by region,Revenue,Revenue,Descriptive,0.98,1782,4.0,,comparative_analysis,False,True
+INT-100174,2025-03-19 10:33:31.852298,HR,Manager,What is customer churn rate?,Sales,Churn Rate,Descriptive,0.8,759,2.0,Medium,performance_monitoring,False,False
+INT-100953,2025-05-12 05:16:31.854046,Operations,Analyst,Show monthly revenue trend,Sales,ROI,Trend Analysis,0.68,548,3.0,High,performance_monitoring,False,False
+INT-100834,2025-08-06 05:16:31.853795,Operations,Manager,Which campaign had highest ROI?,Customer,Revenue,Descriptive,0.65,431,5.0,High,operational_optimization,False,False
+INT-102277,2025-11-20 01:56:31.857452,Sales,Manager,Forecast next quarter revenue,Customer,ROI,Predictive,0.74,340,4.0,Low,forecasting,False,False
+INT-102491,2025-10-26 18:13:31.857928,Operations,Executive,What is customer churn rate?,Revenue,Conversion Rate,Descriptive,0.84,742,1.0,Low,performance_monitoring,False,False
+INT-100736,2025-06-10 14:30:31.853585,Sales,Executive,Show monthly revenue trend,Revenue,Revenue,Trend Analysis,0.8,860,3.0,Low,performance_monitoring,False,False
+INT-101441,2025-06-01 21:01:31.855118,Finance,Analyst,What is customer churn rate?,Customer,ROI,Descriptive,0.82,1718,3.0,High,performance_monitoring,False,False
+INT-100987,2025-08-10 02:56:31.854110,HR,Manager,Compare sales performance by region,Finance,Churn Rate,Descriptive,0.81,1306,4.0,Medium,comparative_analysis,False,False
+INT-100378,2025-03-05 01:08:31.852718,Marketing,Executive,What is customer churn rate?,Customer,Churn Rate,Trend Analysis,0.62,2120,4.0,Low,performance_monitoring,False,False
+INT-103146,2025-11-29 08:26:31.859515,HR,Intern,What is customer churn rate?,Revenue,Churn Rate,Predictive,0.69,1432,4.0,Low,performance_monitoring,False,False
+INT-100852,2025-05-06 07:20:31.853828,HR,Intern,Compare sales performance by region,Finance,ROI,Predictive,0.87,1849,3.0,High,comparative_analysis,False,False
+INT-101996,2025-07-22 15:25:31.856783,Operations,Intern,Compare sales performance by region,Revenue,ROI,Trend Analysis,0.64,629,2.0,Medium,comparative_analysis,False,False
+INT-102483,2025-09-25 20:54:31.857914,Marketing,Manager,Compare sales performance by region,Sales,Conversion Rate,Predictive,0.94,2456,3.0,High,comparative_analysis,False,False
+INT-100114,2025-07-22 04:27:31.852148,Sales,Analyst,Compare sales performance by region,Revenue,Revenue,Descriptive,0.83,1889,2.0,Medium,comparative_analysis,False,False
+INT-101300,2026-01-13 07:29:31.854779,Operations,Manager,What is customer churn rate?,Marketing,Churn Rate,Descriptive,0.76,1203,2.0,High,performance_monitoring,False,False
+INT-100767,2025-04-25 10:29:31.853658,Operations,Intern,What is customer churn rate?,Revenue,Profit Margin,Trend Analysis,0.91,468,4.0,High,performance_monitoring,False,False
+INT-101752,2025-09-19 13:57:31.855754,HR,Intern,What is customer churn rate?,Customer,Revenue,Predictive,0.81,1674,3.0,Medium,performance_monitoring,False,False
+INT-100644,2025-11-09 07:15:31.853324,Operations,Intern,Which campaign had highest ROI?,Revenue,Conversion Rate,Descriptive,0.74,630,3.0,Medium,operational_optimization,False,False
+INT-101093,2025-04-14 19:02:31.854322,Marketing,Executive,Which campaign had highest ROI?,Marketing,Revenue,Trend Analysis,0.61,368,3.0,Low,operational_optimization,False,False
+INT-102649,2025-07-03 11:54:31.858309,Operations,Intern,Forecast next quarter revenue,Finance,ROI,Predictive,0.89,1467,3.0,High,forecasting,False,False
+INT-102035,2025-05-23 00:52:31.856864,Sales,Analyst,Compare sales performance by region,Sales,ROI,Predictive,0.68,1030,1.0,Medium,comparative_analysis,False,False
+INT-102039,2025-03-15 20:19:31.856876,Operations,Intern,Show monthly revenue trend,Sales,ROI,Trend Analysis,0.88,1772,4.0,Low,performance_monitoring,False,False
+INT-100270,2025-04-16 19:42:31.852509,Finance,Intern,Forecast next quarter revenue,Sales,Profit Margin,Trend Analysis,0.79,2253,5.0,Medium,forecasting,False,False
+INT-100884,2025-07-01 02:44:31.853903,Sales,Executive,Compare sales performance by region,Revenue,Revenue,Trend Analysis,0.61,688,3.0,,comparative_analysis,False,True
+INT-101237,2025-06-07 05:05:31.854633,Sales,Intern,Which campaign had highest ROI?,Revenue,Profit Margin,Descriptive,0.98,1458,4.0,Medium,operational_optimization,False,False
+INT-102327,2025-03-19 06:36:31.857544,Sales,Manager,Forecast next quarter revenue,Revenue,Conversion Rate,Descriptive,0.72,2107,4.0,Low,forecasting,False,False
+INT-102109,2026-02-01 20:01:31.857066,HR,Analyst,What is customer churn rate?,Finance,Revenue,Descriptive,0.97,1118,3.0,Medium,performance_monitoring,False,False
+INT-102218,2025-08-23 08:53:31.857298,Operations,Analyst,Show monthly revenue trend,Sales,ROI,Trend Analysis,0.98,2305,3.0,Medium,performance_monitoring,False,False
+INT-101285,2025-10-26 03:09:31.854733,Sales,Executive,Forecast next quarter revenue,Marketing,Churn Rate,Predictive,0.99,2299,2.0,High,forecasting,False,False
+INT-102348,2025-04-20 07:32:31.857583,Marketing,Manager,Compare sales performance by region,Sales,Profit Margin,Trend Analysis,0.92,1183,,,comparative_analysis,True,True
+INT-101132,2025-05-09 17:14:31.854418,Operations,Intern,Forecast next quarter revenue,Finance,Churn Rate,Descriptive,0.89,2414,3.0,Low,forecasting,False,False
+INT-102359,2025-03-22 20:53:31.857603,Marketing,Intern,Which campaign had highest ROI?,Revenue,Churn Rate,Trend Analysis,0.95,346,2.0,High,operational_optimization,False,False
+INT-102948,2026-01-05 07:31:31.858954,HR,Analyst,Which campaign had highest ROI?,Revenue,Conversion Rate,Descriptive,0.63,280,5.0,,operational_optimization,False,True
+INT-101729,2025-07-30 13:33:31.855712,Marketing,Manager,Forecast next quarter revenue,Sales,Revenue,Descriptive,0.61,555,5.0,High,forecasting,False,False
+INT-100785,2025-07-01 06:51:31.853700,Sales,Analyst,Show monthly revenue trend,Revenue,Conversion Rate,Trend Analysis,0.7,2130,4.0,Low,performance_monitoring,False,False
+INT-102279,2026-01-14 22:20:31.857455,Sales,Manager,Show monthly revenue trend,Finance,Churn Rate,Predictive,0.94,1254,2.0,High,performance_monitoring,False,False
+INT-102908,2026-01-01 07:11:31.858870,Sales,Analyst,Forecast next quarter revenue,Customer,Revenue,Predictive,0.95,2255,,Medium,forecasting,True,False
+INT-101160,2025-09-29 02:29:31.854474,Sales,Manager,What is customer churn rate?,Customer,Revenue,Trend Analysis,0.94,870,4.0,Medium,performance_monitoring,False,False
+INT-101228,2025-05-29 15:35:31.854616,Finance,Analyst,Compare sales performance by region,Finance,Profit Margin,Predictive,0.63,1547,,,comparative_analysis,True,True
+INT-102482,2025-04-15 11:38:31.857912,Marketing,Analyst,Which campaign had highest ROI?,Customer,Profit Margin,Predictive,0.72,505,3.0,Low,operational_optimization,False,False
+INT-100937,2025-08-29 08:18:31.854016,Sales,Executive,What is customer churn rate?,Finance,Churn Rate,Descriptive,0.94,1453,1.0,High,performance_monitoring,False,False
+INT-100803,2025-09-10 08:01:31.853739,Operations,Intern,Show monthly revenue trend,Finance,Churn Rate,Descriptive,0.71,1387,5.0,Low,performance_monitoring,False,False
+INT-100570,2026-01-10 06:13:31.853135,Marketing,Manager,Forecast next quarter revenue,Marketing,Profit Margin,Predictive,0.69,1013,,Medium,forecasting,True,False
+INT-101907,2025-10-13 21:22:31.856341,Operations,Manager,What is customer churn rate?,Customer,Revenue,Descriptive,0.67,442,3.0,Medium,performance_monitoring,False,False
+INT-102320,2025-12-18 12:28:31.857531,Marketing,Executive,Which campaign had highest ROI?,Marketing,Churn Rate,Descriptive,0.62,1161,,Medium,operational_optimization,True,False
+INT-102845,2025-05-27 10:42:31.858732,Sales,Analyst,Show monthly revenue trend,Marketing,ROI,Predictive,0.91,1164,3.0,Medium,performance_monitoring,False,False
+INT-100514,2025-07-29 15:39:31.853010,HR,Manager,Which campaign had highest ROI?,Customer,Conversion Rate,Predictive,0.67,2209,1.0,Medium,operational_optimization,False,False
+INT-102642,2025-07-10 06:24:31.858296,HR,Manager,Forecast next quarter revenue,Finance,Profit Margin,Trend Analysis,0.78,1089,4.0,Low,forecasting,False,False
+INT-102174,2025-11-04 22:24:31.857204,Marketing,Executive,Show monthly revenue trend,Marketing,Conversion Rate,Predictive,0.77,499,3.0,Medium,performance_monitoring,False,False
+INT-100015,2025-11-05 04:36:31.851948,Marketing,Executive,Forecast next quarter revenue,Sales,Conversion Rate,Trend Analysis,0.84,1244,5.0,,forecasting,False,True
+INT-103190,2025-03-30 14:52:31.859624,Operations,Analyst,Show monthly revenue trend,Revenue,Conversion Rate,Descriptive,0.79,661,2.0,Low,performance_monitoring,False,False
+INT-101698,2025-10-29 00:02:31.855655,HR,Intern,What is customer churn rate?,Customer,Conversion Rate,Trend Analysis,0.81,1793,5.0,Low,performance_monitoring,False,False
+INT-101550,2025-06-13 08:59:31.855348,Operations,Intern,Forecast next quarter revenue,Marketing,ROI,Trend Analysis,0.63,1841,,Medium,forecasting,True,False
+INT-100414,2025-07-13 05:48:31.852805,Sales,Analyst,What is customer churn rate?,Marketing,Profit Margin,Predictive,0.91,1191,2.0,,performance_monitoring,False,True
+INT-100336,2025-06-05 16:23:31.852636,Sales,Intern,What is customer churn rate?,Revenue,Profit Margin,Trend Analysis,0.71,1338,2.0,Medium,performance_monitoring,False,False
+INT-102286,2025-12-29 19:19:31.857468,Operations,Analyst,What is customer churn rate?,Finance,Profit Margin,Descriptive,0.69,325,3.0,Low,performance_monitoring,False,False
+INT-102732,2025-07-23 06:55:31.858498,Sales,Manager,Compare sales performance by region,Finance,ROI,Descriptive,0.84,617,4.0,Medium,comparative_analysis,False,False
+INT-100768,2025-09-28 21:31:31.853661,Operations,Executive,Which campaign had highest ROI?,Revenue,Churn Rate,Predictive,0.97,1587,3.0,Medium,operational_optimization,False,False
+INT-100164,2025-05-13 17:04:31.852265,Finance,Analyst,Which campaign had highest ROI?,Sales,Profit Margin,Trend Analysis,0.88,2222,5.0,Medium,operational_optimization,False,False
+INT-102235,2025-05-29 09:59:31.857330,Marketing,Intern,Forecast next quarter revenue,Revenue,Revenue,Predictive,0.62,1566,5.0,Medium,forecasting,False,False
+INT-103167,2025-07-01 10:37:31.859577,Finance,Intern,Show monthly revenue trend,Sales,Churn Rate,Descriptive,0.92,244,1.0,,performance_monitoring,False,True
+INT-102405,2025-03-31 16:59:31.857711,HR,Intern,Which campaign had highest ROI?,Revenue,Churn Rate,Trend Analysis,0.77,607,,Medium,operational_optimization,True,False
+INT-101319,2025-08-03 18:17:31.854817,Marketing,Manager,Which campaign had highest ROI?,Marketing,Conversion Rate,Predictive,0.76,1208,2.0,Low,operational_optimization,False,False
+INT-102467,2026-01-15 14:08:31.857885,HR,Intern,Compare sales performance by region,Customer,Conversion Rate,Descriptive,0.85,1658,5.0,Low,comparative_analysis,False,False
+INT-100200,2026-01-22 23:42:31.852353,Marketing,Manager,Show monthly revenue trend,Finance,ROI,Predictive,0.78,870,5.0,High,performance_monitoring,False,False
+INT-102895,2025-12-12 15:59:31.858845,Sales,Executive,Show monthly revenue trend,Marketing,Profit Margin,Trend Analysis,0.81,2354,5.0,,performance_monitoring,False,True
+INT-102682,2025-06-17 05:57:31.858384,HR,Analyst,Compare sales performance by region,Revenue,ROI,Trend Analysis,0.76,729,5.0,,comparative_analysis,False,True
+INT-100663,2025-09-01 23:01:31.853389,Finance,Manager,Forecast next quarter revenue,Marketing,ROI,Descriptive,0.94,1216,1.0,Low,forecasting,False,False
+INT-100940,2025-07-13 10:47:31.854022,Marketing,Intern,Compare sales performance by region,Sales,ROI,Descriptive,0.72,1618,,High,comparative_analysis,True,False
+INT-100710,2025-05-26 12:54:31.853532,Operations,Executive,Which campaign had highest ROI?,Revenue,Profit Margin,Predictive,0.86,1260,4.0,High,operational_optimization,False,False
+INT-101259,2026-01-14 20:03:31.854685,Sales,Executive,Forecast next quarter revenue,Finance,Conversion Rate,Predictive,0.66,1006,2.0,Medium,forecasting,False,False
+INT-102440,2025-07-15 09:02:31.857817,HR,Manager,What is customer churn rate?,Finance,Conversion Rate,Predictive,0.61,2244,4.0,High,performance_monitoring,False,False
+INT-101104,2025-03-12 12:40:31.854342,Finance,Analyst,What is customer churn rate?,Revenue,Revenue,Predictive,0.72,1839,3.0,,performance_monitoring,False,True
+INT-100635,2025-05-07 12:56:31.853289,Sales,Executive,Which campaign had highest ROI?,Revenue,Profit Margin,Predictive,0.82,2259,4.0,High,operational_optimization,False,False
+INT-103081,2025-12-21 03:34:31.859309,Finance,Executive,Show monthly revenue trend,Finance,Revenue,Descriptive,0.74,2084,4.0,Medium,performance_monitoring,False,False
+INT-100468,2025-07-18 22:12:31.852926,Sales,Manager,Show monthly revenue trend,Revenue,ROI,Predictive,0.9,316,,,performance_monitoring,True,True
+INT-101925,2025-03-21 17:25:31.856407,Operations,Manager,What is customer churn rate?,Sales,Profit Margin,Trend Analysis,0.61,1181,2.0,Low,performance_monitoring,False,False
+INT-103087,2026-02-08 08:15:31.859327,Operations,Executive,Which campaign had highest ROI?,Revenue,Profit Margin,Predictive,0.72,1900,4.0,High,operational_optimization,False,False
+INT-100783,2025-10-24 09:34:31.853696,Finance,Manager,What is customer churn rate?,Sales,Revenue,Descriptive,0.86,751,4.0,Low,performance_monitoring,False,False
+INT-102163,2025-04-21 20:57:31.857180,Marketing,Intern,Which campaign had highest ROI?,Finance,Conversion Rate,Predictive,0.71,1164,2.0,,operational_optimization,False,True
+INT-101941,2025-03-28 21:36:31.856467,Sales,Executive,Compare sales performance by region,Finance,Profit Margin,Trend Analysis,0.91,1812,2.0,Medium,comparative_analysis,False,False
+INT-101399,2025-10-10 21:33:31.854999,Finance,Executive,Show monthly revenue trend,Marketing,Churn Rate,Predictive,0.86,1175,5.0,Low,performance_monitoring,False,False
+INT-102144,2025-02-28 23:01:31.857132,Operations,Manager,Compare sales performance by region,Marketing,Churn Rate,Predictive,0.85,2158,2.0,,comparative_analysis,False,True
+INT-101628,2025-08-14 00:07:31.855502,Operations,Intern,Compare sales performance by region,Customer,Conversion Rate,Descriptive,0.67,2174,5.0,Low,comparative_analysis,False,False
+INT-101870,2025-05-12 19:25:31.856215,Finance,Executive,Forecast next quarter revenue,Finance,Churn Rate,Trend Analysis,0.71,1164,2.0,,forecasting,False,True
+INT-101200,2025-04-22 12:54:31.854547,Marketing,Executive,Which campaign had highest ROI?,Finance,Churn Rate,Predictive,0.64,1762,5.0,Medium,operational_optimization,False,False
+INT-100100,2025-12-11 10:29:31.852123,HR,Manager,Which campaign had highest ROI?,Customer,Profit Margin,Trend Analysis,0.67,1902,3.0,Low,operational_optimization,False,False
+INT-100208,2025-10-08 02:58:31.852394,HR,Executive,Compare sales performance by region,Marketing,ROI,Trend Analysis,0.89,756,2.0,,comparative_analysis,False,True
+INT-102478,2025-11-08 15:43:31.857905,Operations,Analyst,What is customer churn rate?,Marketing,ROI,Descriptive,0.75,601,2.0,Medium,performance_monitoring,False,False
+INT-100368,2025-08-01 01:59:31.852696,HR,Manager,Forecast next quarter revenue,Revenue,ROI,Trend Analysis,0.92,1195,5.0,High,forecasting,False,False
+INT-100064,2025-09-03 06:50:31.852054,Marketing,Intern,Which campaign had highest ROI?,Customer,ROI,Trend Analysis,0.87,1209,2.0,Medium,operational_optimization,False,False
+INT-102602,2025-11-05 14:52:31.858220,Operations,Analyst,Compare sales performance by region,Finance,ROI,Trend Analysis,0.76,569,1.0,Medium,comparative_analysis,False,False
+INT-101445,2025-11-02 20:38:31.855125,Finance,Manager,Compare sales performance by region,Marketing,Conversion Rate,Descriptive,0.88,484,1.0,Medium,comparative_analysis,False,False
+INT-100722,2026-01-13 16:46:31.853560,Marketing,Executive,Forecast next quarter revenue,Revenue,Revenue,Trend Analysis,0.94,1217,3.0,Medium,forecasting,False,False
+INT-102982,2026-01-14 18:32:31.859056,Sales,Intern,Which campaign had highest ROI?,Finance,Revenue,Trend Analysis,0.98,1045,,Low,operational_optimization,True,False
+INT-100436,2025-10-17 10:40:31.852845,Marketing,Analyst,What is customer churn rate?,Revenue,Conversion Rate,Descriptive,0.77,1307,4.0,Medium,performance_monitoring,False,False
+INT-100422,2025-05-15 15:43:31.852819,Marketing,Analyst,Forecast next quarter revenue,Marketing,Profit Margin,Trend Analysis,0.88,1471,5.0,Medium,forecasting,False,False
+INT-102030,2025-05-03 10:24:31.856849,Sales,Analyst,Compare sales performance by region,Revenue,ROI,Predictive,0.65,1183,2.0,Medium,comparative_analysis,False,False
+INT-101714,2025-06-10 06:20:31.855685,HR,Executive,Compare sales performance by region,Sales,Profit Margin,Descriptive,0.7,454,4.0,,comparative_analysis,False,True
+INT-100944,2025-09-10 17:31:31.854029,Finance,Executive,Show monthly revenue trend,Customer,ROI,Predictive,0.96,1334,4.0,Low,performance_monitoring,False,False
+INT-101291,2025-11-26 08:24:31.854748,HR,Analyst,Which campaign had highest ROI?,Customer,Conversion Rate,Predictive,0.94,401,3.0,Low,operational_optimization,False,False
+INT-100005,2025-10-19 16:01:31.851919,Marketing,Executive,Compare sales performance by region,Finance,Conversion Rate,Descriptive,0.89,722,4.0,Medium,comparative_analysis,False,False
+INT-102861,2025-03-13 14:51:31.858762,HR,Manager,Which campaign had highest ROI?,Customer,Churn Rate,Predictive,0.67,1664,4.0,Medium,operational_optimization,False,False
+INT-101391,2025-10-27 06:44:31.854968,Sales,Analyst,Which campaign had highest ROI?,Marketing,Revenue,Descriptive,0.81,328,2.0,Medium,operational_optimization,False,False
+INT-102438,2025-04-28 22:00:31.857812,Marketing,Intern,Which campaign had highest ROI?,Finance,Churn Rate,Descriptive,0.91,482,2.0,High,operational_optimization,False,False
+INT-102410,2025-05-23 16:00:31.857720,Sales,Analyst,Show monthly revenue trend,Marketing,Profit Margin,Descriptive,0.82,461,3.0,Low,performance_monitoring,False,False
+INT-102430,2025-09-09 06:18:31.857787,Sales,Manager,Show monthly revenue trend,Revenue,Revenue,Predictive,0.8,1601,4.0,Medium,performance_monitoring,False,False
+INT-102013,2025-07-18 12:03:31.856815,Marketing,Intern,Show monthly revenue trend,Sales,Profit Margin,Predictive,0.7,437,5.0,High,performance_monitoring,False,False
+INT-100056,2025-10-08 15:12:31.852029,HR,Analyst,Show monthly revenue trend,Finance,Churn Rate,Predictive,0.62,382,3.0,High,performance_monitoring,False,False
+INT-102264,2025-10-11 00:50:31.857399,Finance,Intern,Forecast next quarter revenue,Marketing,ROI,Descriptive,0.7,2305,4.0,Medium,forecasting,False,False
+INT-101507,2026-01-04 07:47:31.855270,Marketing,Executive,Which campaign had highest ROI?,Marketing,Revenue,Trend Analysis,0.96,2389,4.0,Medium,operational_optimization,False,False
+INT-101185,2025-08-17 15:14:31.854519,Finance,Manager,What is customer churn rate?,Sales,ROI,Descriptive,0.65,1176,,Low,performance_monitoring,True,False
+INT-101582,2025-04-04 00:24:31.855406,HR,Intern,Show monthly revenue trend,Revenue,Profit Margin,Trend Analysis,0.95,1280,2.0,Medium,performance_monitoring,False,False
+INT-101979,2025-08-19 03:18:31.856633,Finance,Manager,Which campaign had highest ROI?,Marketing,Churn Rate,Predictive,0.98,843,1.0,Low,operational_optimization,False,False
+INT-102069,2025-10-16 11:17:31.856964,Finance,Analyst,What is customer churn rate?,Customer,Churn Rate,Predictive,0.63,1252,3.0,High,performance_monitoring,False,False
+INT-100050,2025-11-18 12:35:31.852018,HR,Executive,Compare sales performance by region,Marketing,Churn Rate,Predictive,0.73,2093,5.0,,comparative_analysis,False,True
+INT-100384,2026-02-07 09:12:31.852729,Operations,Executive,Forecast next quarter revenue,Marketing,ROI,Trend Analysis,0.95,1296,3.0,Low,forecasting,False,False
+INT-102522,2025-11-08 10:08:31.858035,HR,Executive,Forecast next quarter revenue,Sales,Conversion Rate,Descriptive,0.73,731,,,forecasting,True,True
+INT-103165,2025-11-15 18:36:31.859571,Marketing,Manager,What is customer churn rate?,Sales,ROI,Predictive,0.61,2203,3.0,Medium,performance_monitoring,False,False
+INT-100080,2025-07-13 16:58:31.852084,Operations,Intern,Compare sales performance by region,Revenue,Profit Margin,Descriptive,0.7,1722,4.0,Low,comparative_analysis,False,False
+INT-100263,2025-03-09 15:35:31.852496,Sales,Analyst,Compare sales performance by region,Finance,ROI,Descriptive,0.89,298,,Medium,comparative_analysis,True,False
+INT-101975,2025-07-09 16:08:31.856612,Finance,Manager,Forecast next quarter revenue,Finance,ROI,Descriptive,0.65,836,,,forecasting,True,True
+INT-102472,2025-08-19 14:33:31.857894,HR,Manager,Forecast next quarter revenue,Finance,ROI,Descriptive,0.66,2360,3.0,Low,forecasting,False,False
+INT-102656,2025-04-28 13:21:31.858322,Marketing,Intern,What is customer churn rate?,Revenue,Churn Rate,Descriptive,0.66,447,4.0,Low,performance_monitoring,False,False
+INT-100784,2025-08-24 08:26:31.853698,Operations,Executive,What is customer churn rate?,Sales,Revenue,Trend Analysis,0.75,2087,1.0,High,performance_monitoring,False,False
+INT-102777,2025-08-22 17:25:31.858584,Finance,Executive,Compare sales performance by region,Finance,Churn Rate,Descriptive,0.71,2474,3.0,Low,comparative_analysis,False,False
+INT-102997,2025-10-08 21:10:31.859104,Finance,Intern,Which campaign had highest ROI?,Marketing,ROI,Predictive,0.68,684,4.0,High,operational_optimization,False,False
+INT-102912,2025-12-11 23:28:31.858877,Sales,Manager,Show monthly revenue trend,Revenue,Conversion Rate,Descriptive,0.94,2065,2.0,,performance_monitoring,False,True
+INT-101771,2025-04-16 12:07:31.855788,Sales,Executive,Which campaign had highest ROI?,Sales,Churn Rate,Descriptive,0.85,1136,3.0,High,operational_optimization,False,False
+INT-101026,2025-11-14 01:20:31.854200,Sales,Manager,Show monthly revenue trend,Customer,Revenue,Trend Analysis,0.85,943,2.0,Medium,performance_monitoring,False,False
+INT-102220,2025-04-18 16:36:31.857302,Operations,Analyst,Show monthly revenue trend,Customer,Conversion Rate,Trend Analysis,0.74,1011,,Medium,performance_monitoring,True,False
+INT-101381,2025-12-08 12:07:31.854950,Sales,Executive,Forecast next quarter revenue,Sales,Revenue,Trend Analysis,0.98,884,5.0,Low,forecasting,False,False
+INT-103067,2025-05-12 16:41:31.859271,Marketing,Intern,Forecast next quarter revenue,Finance,Churn Rate,Descriptive,0.84,1967,2.0,Medium,forecasting,False,False
+INT-101758,2025-10-10 19:49:31.855765,Operations,Intern,Compare sales performance by region,Customer,Churn Rate,Predictive,0.6,1347,2.0,Medium,comparative_analysis,False,False
+INT-101302,2025-09-25 17:29:31.854783,Finance,Executive,Forecast next quarter revenue,Revenue,Churn Rate,Predictive,0.78,1448,1.0,Low,forecasting,False,False
+INT-101167,2025-09-27 07:31:31.854486,Operations,Executive,Forecast next quarter revenue,Revenue,Conversion Rate,Descriptive,0.82,1252,4.0,,forecasting,False,True
+INT-101794,2025-07-10 02:08:31.856027,Operations,Intern,Forecast next quarter revenue,Customer,Conversion Rate,Predictive,0.61,2106,,Low,forecasting,True,False
+INT-103026,2026-01-03 10:57:31.859183,Sales,Manager,Show monthly revenue trend,Customer,ROI,Predictive,0.83,2294,3.0,Medium,performance_monitoring,False,False
+INT-102080,2026-02-06 11:40:31.856999,Marketing,Intern,Compare sales performance by region,Customer,Churn Rate,Trend Analysis,0.69,322,2.0,Low,comparative_analysis,False,False
+INT-100760,2025-09-28 06:36:31.853629,Finance,Analyst,Forecast next quarter revenue,Marketing,Churn Rate,Descriptive,0.87,378,4.0,Medium,forecasting,False,False
+INT-100607,2025-12-23 05:26:31.853212,Sales,Manager,Compare sales performance by region,Sales,Churn Rate,Predictive,0.87,1549,5.0,Medium,comparative_analysis,False,False
+INT-100486,2026-01-05 14:18:31.852959,Sales,Manager,Which campaign had highest ROI?,Sales,Profit Margin,Trend Analysis,0.63,331,,Medium,operational_optimization,True,False
+INT-100040,2025-09-22 06:47:31.851999,HR,Analyst,What is customer churn rate?,Customer,Conversion Rate,Trend Analysis,0.91,2264,1.0,Low,performance_monitoring,False,False
+INT-100139,2025-07-23 05:07:31.852208,Operations,Intern,Show monthly revenue trend,Finance,ROI,Trend Analysis,0.66,1664,3.0,Low,performance_monitoring,False,False
+INT-101440,2025-09-06 16:10:31.855116,Operations,Analyst,What is customer churn rate?,Customer,Conversion Rate,Descriptive,0.86,1337,,Low,performance_monitoring,True,False
+INT-102989,2025-03-11 02:09:31.859078,Marketing,Analyst,What is customer churn rate?,Customer,Profit Margin,Predictive,0.61,2058,4.0,Low,performance_monitoring,False,False
+INT-102694,2025-07-03 14:59:31.858406,Marketing,Intern,What is customer churn rate?,Marketing,Profit Margin,Predictive,0.68,2424,3.0,High,performance_monitoring,False,False
+INT-102378,2025-10-12 04:49:31.857650,Operations,Analyst,Compare sales performance by region,Customer,ROI,Predictive,0.72,758,5.0,High,comparative_analysis,False,False
+INT-101768,2025-10-27 10:05:31.855783,Sales,Manager,Compare sales performance by region,Revenue,Revenue,Trend Analysis,0.81,952,2.0,Low,comparative_analysis,False,False
+INT-100298,2026-02-06 20:48:31.852564,HR,Intern,Which campaign had highest ROI?,Customer,Profit Margin,Predictive,0.81,475,5.0,High,operational_optimization,False,False
+INT-102095,2025-03-03 11:08:31.857040,Finance,Intern,Show monthly revenue trend,Sales,ROI,Descriptive,0.92,1252,3.0,Low,performance_monitoring,False,False
+INT-102300,2025-12-02 08:38:31.857494,HR,Analyst,Which campaign had highest ROI?,Customer,ROI,Descriptive,0.82,2474,,High,operational_optimization,True,False
+INT-103007,2025-05-06 15:58:31.859141,Marketing,Analyst,What is customer churn rate?,Revenue,Revenue,Trend Analysis,0.67,449,4.0,High,performance_monitoring,False,False
+INT-102161,2026-01-15 19:07:31.857177,Operations,Intern,What is customer churn rate?,Marketing,ROI,Trend Analysis,0.95,2373,3.0,Low,performance_monitoring,False,False
+INT-100215,2025-05-31 07:35:31.852406,Finance,Manager,Which campaign had highest ROI?,Finance,Profit Margin,Predictive,0.66,397,2.0,Medium,operational_optimization,False,False
+INT-100977,2026-02-04 05:55:31.854091,Marketing,Analyst,What is customer churn rate?,Sales,Churn Rate,Trend Analysis,0.96,428,,Medium,performance_monitoring,True,False
+INT-101987,2025-06-28 21:02:31.856666,Marketing,Analyst,Forecast next quarter revenue,Revenue,Conversion Rate,Descriptive,0.7,289,,Medium,forecasting,True,False
+INT-101281,2025-07-11 17:18:31.854725,Marketing,Intern,Which campaign had highest ROI?,Marketing,ROI,Trend Analysis,0.76,2254,5.0,,operational_optimization,False,True
+INT-103012,2025-03-07 07:28:31.859153,Sales,Analyst,Show monthly revenue trend,Customer,Churn Rate,Descriptive,0.79,2072,1.0,,performance_monitoring,False,True
+INT-100623,2025-12-06 11:47:31.853241,HR,Manager,Show monthly revenue trend,Finance,Profit Margin,Trend Analysis,0.73,1937,1.0,Medium,performance_monitoring,False,False
+INT-102632,2025-09-12 00:28:31.858278,Finance,Manager,Compare sales performance by region,Revenue,Conversion Rate,Predictive,0.96,1673,5.0,High,comparative_analysis,False,False
+INT-100540,2025-10-29 01:51:31.853058,Sales,Executive,Which campaign had highest ROI?,Customer,Profit Margin,Trend Analysis,0.62,792,4.0,Low,operational_optimization,False,False
+INT-102390,2025-10-05 21:41:31.857672,Finance,Intern,Show monthly revenue trend,Revenue,Conversion Rate,Descriptive,0.93,872,,Medium,performance_monitoring,True,False
+INT-102860,2025-10-27 05:41:31.858760,HR,Intern,Which campaign had highest ROI?,Customer,Churn Rate,Trend Analysis,0.87,877,5.0,Medium,operational_optimization,False,False
+INT-102874,2025-09-20 02:58:31.858796,Marketing,Analyst,What is customer churn rate?,Sales,Profit Margin,Predictive,0.71,1691,4.0,Medium,performance_monitoring,False,False
+INT-100712,2025-10-12 19:05:31.853536,Marketing,Intern,Which campaign had highest ROI?,Customer,Churn Rate,Trend Analysis,0.72,1796,,Medium,operational_optimization,True,False
+INT-100876,2025-09-20 02:00:31.853888,Sales,Executive,What is customer churn rate?,Marketing,Churn Rate,Predictive,0.75,2303,4.0,Medium,performance_monitoring,False,False
+INT-101861,2025-03-30 03:48:31.856186,HR,Executive,What is customer churn rate?,Finance,ROI,Descriptive,0.89,1854,3.0,,performance_monitoring,False,True
+INT-101174,2026-02-04 08:57:31.854499,HR,Intern,What is customer churn rate?,Sales,Conversion Rate,Descriptive,0.96,995,3.0,Low,performance_monitoring,False,False
+INT-101675,2025-12-22 08:40:31.855612,Finance,Executive,Forecast next quarter revenue,Marketing,Churn Rate,Predictive,0.72,1067,3.0,Medium,forecasting,False,False
+INT-100046,2025-03-26 00:46:31.852011,Marketing,Analyst,Show monthly revenue trend,Customer,Profit Margin,Predictive,0.87,1637,4.0,Medium,performance_monitoring,False,False
+INT-100140,2025-08-18 10:47:31.852211,Sales,Analyst,Forecast next quarter revenue,Customer,Revenue,Predictive,0.95,1205,,Medium,forecasting,True,False
+INT-102086,2025-09-17 04:29:31.857016,Operations,Executive,What is customer churn rate?,Marketing,Churn Rate,Predictive,0.91,2284,5.0,High,performance_monitoring,False,False
+INT-103175,2025-08-29 23:25:31.859597,Finance,Manager,Compare sales performance by region,Revenue,Churn Rate,Trend Analysis,0.85,1668,5.0,Low,comparative_analysis,False,False
+INT-102647,2025-08-11 21:32:31.858305,HR,Executive,What is customer churn rate?,Customer,ROI,Predictive,0.75,1642,4.0,,performance_monitoring,False,True
+INT-100872,2025-09-14 05:21:31.853881,Sales,Analyst,Compare sales performance by region,Revenue,ROI,Trend Analysis,0.67,879,5.0,Medium,comparative_analysis,False,False
+INT-101826,2025-04-15 07:11:31.856092,Operations,Analyst,Which campaign had highest ROI?,Sales,Revenue,Descriptive,0.77,1762,2.0,Medium,operational_optimization,False,False
+INT-100038,2025-12-14 05:56:31.851996,Sales,Manager,Which campaign had highest ROI?,Marketing,ROI,Predictive,0.8,789,4.0,Medium,operational_optimization,False,False
+INT-101539,2025-06-12 04:29:31.855328,HR,Intern,Forecast next quarter revenue,Finance,Profit Margin,Descriptive,0.9,2160,2.0,Low,forecasting,False,False
+INT-100201,2025-04-20 06:22:31.852355,Finance,Manager,Which campaign had highest ROI?,Sales,Profit Margin,Predictive,0.8,2456,3.0,Medium,operational_optimization,False,False
+INT-100571,2025-08-16 07:36:31.853137,Marketing,Executive,Which campaign had highest ROI?,Sales,Churn Rate,Trend Analysis,0.7,2029,4.0,Medium,operational_optimization,False,False
+INT-100053,2026-01-21 06:05:31.852024,Operations,Manager,Compare sales performance by region,Marketing,Profit Margin,Trend Analysis,0.85,2348,2.0,Medium,comparative_analysis,False,False
+INT-100490,2025-12-21 03:32:31.852966,Sales,Analyst,Forecast next quarter revenue,Revenue,Conversion Rate,Predictive,0.64,1425,4.0,Medium,forecasting,False,False
+INT-101475,2025-12-18 02:21:31.855187,HR,Analyst,Show monthly revenue trend,Revenue,Revenue,Descriptive,0.76,1203,5.0,Medium,performance_monitoring,False,False
+INT-100022,2025-10-15 09:19:31.851961,HR,Manager,Compare sales performance by region,Marketing,Revenue,Descriptive,0.85,2492,4.0,Low,comparative_analysis,False,False
+INT-101761,2025-05-18 18:56:31.855770,Sales,Executive,Show monthly revenue trend,Customer,ROI,Trend Analysis,0.66,1813,3.0,Low,performance_monitoring,False,False
+INT-102451,2025-04-07 15:35:31.857853,Marketing,Intern,What is customer churn rate?,Sales,Conversion Rate,Descriptive,0.97,1678,4.0,Low,performance_monitoring,False,False
+INT-100251,2025-11-11 08:42:31.852473,HR,Executive,Show monthly revenue trend,Customer,Revenue,Predictive,0.9,1785,5.0,High,performance_monitoring,False,False
+INT-100854,2025-07-09 10:50:31.853835,HR,Executive,Which campaign had highest ROI?,Revenue,Revenue,Descriptive,0.92,809,1.0,Medium,operational_optimization,False,False
+INT-101978,2025-11-09 02:40:31.856622,Marketing,Analyst,Show monthly revenue trend,Sales,Conversion Rate,Descriptive,0.65,390,3.0,Medium,performance_monitoring,False,False
+INT-100267,2025-04-08 02:30:31.852503,Sales,Analyst,Which campaign had highest ROI?,Sales,Revenue,Trend Analysis,0.94,1863,1.0,Low,operational_optimization,False,False
+INT-102265,2025-10-08 19:32:31.857407,Marketing,Executive,Forecast next quarter revenue,Revenue,Revenue,Trend Analysis,0.65,1560,4.0,Low,forecasting,False,False
+INT-103022,2025-12-09 08:07:31.859171,Operations,Analyst,Show monthly revenue trend,Finance,Revenue,Predictive,0.65,1490,3.0,,performance_monitoring,False,True
+INT-100134,2025-09-12 03:56:31.852192,Finance,Executive,Which campaign had highest ROI?,Revenue,ROI,Descriptive,0.82,983,3.0,Low,operational_optimization,False,False
+INT-101863,2025-12-09 15:05:31.856192,Operations,Executive,Show monthly revenue trend,Customer,Conversion Rate,Predictive,0.88,430,2.0,Medium,performance_monitoring,False,False
+INT-100818,2025-07-15 07:55:31.853766,Operations,Executive,What is customer churn rate?,Marketing,Profit Margin,Trend Analysis,0.77,2409,4.0,Medium,performance_monitoring,False,False
+INT-102955,2025-04-17 06:15:31.858967,Sales,Manager,Show monthly revenue trend,Revenue,Revenue,Descriptive,0.66,2298,4.0,High,performance_monitoring,False,False
+INT-102818,2025-05-16 23:48:31.858660,Marketing,Intern,Forecast next quarter revenue,Finance,Revenue,Trend Analysis,0.77,1157,2.0,High,forecasting,False,False
+INT-100596,2025-11-09 14:55:31.853191,Operations,Intern,Compare sales performance by region,Customer,Profit Margin,Predictive,0.95,916,3.0,Medium,comparative_analysis,False,False
+INT-100952,2026-02-08 08:52:31.854044,HR,Executive,Forecast next quarter revenue,Marketing,Churn Rate,Trend Analysis,0.94,1662,1.0,Low,forecasting,False,False
+INT-102939,2025-05-30 00:35:31.858934,Finance,Manager,What is customer churn rate?,Customer,Conversion Rate,Predictive,0.75,1894,4.0,,performance_monitoring,False,True
+INT-102693,2025-12-31 10:19:31.858404,Marketing,Intern,Compare sales performance by region,Sales,ROI,Predictive,0.74,2358,5.0,Low,comparative_analysis,False,False
+INT-100371,2025-06-28 09:52:31.852701,HR,Executive,Compare sales performance by region,Sales,Conversion Rate,Descriptive,0.75,1284,5.0,High,comparative_analysis,False,False
+INT-101840,2025-08-27 11:20:31.856117,HR,Manager,What is customer churn rate?,Sales,Revenue,Predictive,0.94,1515,5.0,High,performance_monitoring,False,False
+INT-102712,2025-09-23 05:58:31.858440,Operations,Manager,Forecast next quarter revenue,Customer,Conversion Rate,Predictive,0.97,603,1.0,High,forecasting,False,False
+INT-100713,2025-10-04 19:00:31.853538,Finance,Analyst,Compare sales performance by region,Sales,ROI,Predictive,0.8,2097,4.0,Medium,comparative_analysis,False,False
+INT-101123,2025-07-03 02:48:31.854399,Finance,Manager,What is customer churn rate?,Finance,Conversion Rate,Descriptive,0.87,2119,4.0,Medium,performance_monitoring,False,False
+INT-101296,2025-09-30 10:03:31.854764,Sales,Manager,Compare sales performance by region,Revenue,Revenue,Predictive,0.68,1273,4.0,Low,comparative_analysis,False,False
+INT-102232,2025-09-11 12:29:31.857324,Operations,Executive,Which campaign had highest ROI?,Marketing,ROI,Trend Analysis,0.88,805,5.0,Low,operational_optimization,False,False
+INT-101651,2025-07-24 00:52:31.855558,Finance,Analyst,What is customer churn rate?,Sales,Churn Rate,Trend Analysis,0.77,640,3.0,Low,performance_monitoring,False,False
+INT-102160,2025-07-04 06:52:31.857175,HR,Analyst,What is customer churn rate?,Revenue,ROI,Descriptive,0.66,1849,3.0,Medium,performance_monitoring,False,False
+INT-101451,2026-02-07 17:03:31.855136,Sales,Intern,Which campaign had highest ROI?,Sales,Profit Margin,Descriptive,0.71,270,4.0,Medium,operational_optimization,False,False
+INT-102769,2025-09-29 03:51:31.858569,Finance,Executive,Compare sales performance by region,Marketing,Revenue,Trend Analysis,0.82,227,3.0,Medium,comparative_analysis,False,False
+INT-100043,2026-01-30 02:05:31.852005,Marketing,Intern,Forecast next quarter revenue,Revenue,ROI,Predictive,0.77,849,1.0,,forecasting,False,True
+INT-102957,2025-05-04 03:33:31.858971,Marketing,Manager,Which campaign had highest ROI?,Finance,Churn Rate,Predictive,0.86,876,3.0,High,operational_optimization,False,False
+INT-102677,2025-03-09 17:21:31.858375,Operations,Executive,Compare sales performance by region,Marketing,Churn Rate,Predictive,0.71,1106,5.0,Low,comparative_analysis,False,False
+INT-100382,2025-06-08 13:24:31.852725,Sales,Executive,Which campaign had highest ROI?,Customer,Revenue,Predictive,0.77,1681,5.0,High,operational_optimization,False,False
+INT-101444,2025-10-07 11:49:31.855123,Marketing,Analyst,Forecast next quarter revenue,Marketing,Profit Margin,Predictive,0.7,1792,5.0,,forecasting,False,True
+INT-100142,2025-08-23 20:28:31.852218,HR,Executive,Compare sales performance by region,Revenue,Conversion Rate,Trend Analysis,0.81,293,4.0,Medium,comparative_analysis,False,False
+INT-100828,2026-01-22 17:04:31.853784,Marketing,Manager,What is customer churn rate?,Finance,Revenue,Trend Analysis,0.83,1037,5.0,Low,performance_monitoring,False,False
+INT-102951,2025-04-18 20:26:31.858960,Finance,Manager,What is customer churn rate?,Revenue,Profit Margin,Predictive,0.91,2024,3.0,High,performance_monitoring,False,False
+INT-101095,2025-06-12 22:34:31.854325,Marketing,Executive,Show monthly revenue trend,Marketing,Churn Rate,Descriptive,0.92,480,3.0,Low,performance_monitoring,False,False
+INT-102674,2025-09-25 13:36:31.858367,Finance,Executive,Forecast next quarter revenue,Revenue,ROI,Trend Analysis,0.75,517,4.0,Low,forecasting,False,False
+INT-100220,2025-04-19 23:00:31.852415,Marketing,Manager,Which campaign had highest ROI?,Sales,Conversion Rate,Descriptive,0.82,1285,4.0,Medium,operational_optimization,False,False
+INT-101392,2025-08-19 12:56:31.854970,Operations,Manager,Compare sales performance by region,Revenue,ROI,Trend Analysis,0.71,1083,2.0,High,comparative_analysis,False,False
+INT-102936,2025-10-15 12:29:31.858925,Marketing,Intern,Compare sales performance by region,Sales,Conversion Rate,Descriptive,0.88,2414,2.0,High,comparative_analysis,False,False
+INT-101596,2025-03-19 06:09:31.855435,Marketing,Manager,What is customer churn rate?,Finance,Revenue,Trend Analysis,0.92,413,4.0,Medium,performance_monitoring,False,False
+INT-102897,2025-06-12 13:53:31.858849,Finance,Intern,Compare sales performance by region,Customer,Conversion Rate,Trend Analysis,0.88,728,3.0,Medium,comparative_analysis,False,False
+INT-102029,2025-07-11 10:04:31.856847,Sales,Analyst,Forecast next quarter revenue,Finance,Revenue,Trend Analysis,0.67,1622,3.0,Low,forecasting,False,False
+INT-101176,2025-11-17 09:57:31.854503,Marketing,Manager,Which campaign had highest ROI?,Marketing,Revenue,Trend Analysis,0.93,1709,5.0,Medium,operational_optimization,False,False
+INT-102905,2025-03-10 04:06:31.858864,Marketing,Intern,Compare sales performance by region,Customer,Conversion Rate,Predictive,0.65,212,2.0,Medium,comparative_analysis,False,False
+INT-100734,2025-03-11 12:06:31.853581,Sales,Analyst,Which campaign had highest ROI?,Marketing,Conversion Rate,Trend Analysis,0.61,462,5.0,Medium,operational_optimization,False,False
+INT-100421,2025-06-17 21:20:31.852817,HR,Intern,Compare sales performance by region,Finance,ROI,Predictive,0.91,279,,High,comparative_analysis,True,False
+INT-101624,2025-03-23 16:03:31.855495,Sales,Executive,What is customer churn rate?,Sales,Churn Rate,Trend Analysis,0.97,900,2.0,Low,performance_monitoring,False,False
+INT-102788,2025-12-05 16:24:31.858604,Finance,Analyst,Compare sales performance by region,Marketing,Churn Rate,Predictive,0.68,724,1.0,Medium,comparative_analysis,False,False
+INT-102577,2025-12-25 19:40:31.858172,Marketing,Manager,Compare sales performance by region,Sales,Churn Rate,Trend Analysis,0.79,1959,3.0,Medium,comparative_analysis,False,False
+INT-101195,2025-05-26 01:10:31.854538,Sales,Analyst,What is customer churn rate?,Marketing,ROI,Trend Analysis,0.94,440,2.0,Low,performance_monitoring,False,False
+INT-102748,2025-09-05 06:17:31.858531,Sales,Analyst,Show monthly revenue trend,Sales,Conversion Rate,Predictive,0.87,1060,,Low,performance_monitoring,True,False
+INT-101686,2025-08-12 21:59:31.855632,Finance,Analyst,Which campaign had highest ROI?,Sales,Revenue,Predictive,0.85,1812,,Low,operational_optimization,True,False
+INT-101754,2025-10-31 23:48:31.855757,Finance,Executive,Which campaign had highest ROI?,Marketing,ROI,Trend Analysis,0.99,762,4.0,Low,operational_optimization,False,False
+INT-102233,2026-02-05 05:31:31.857326,Marketing,Manager,What is customer churn rate?,Finance,Churn Rate,Trend Analysis,0.66,1670,2.0,Medium,performance_monitoring,False,False
+INT-101223,2025-06-15 21:08:31.854603,Finance,Executive,Show monthly revenue trend,Marketing,Churn Rate,Predictive,0.87,1534,,,performance_monitoring,True,True
+INT-102273,2025-09-11 23:10:31.857433,HR,Intern,Compare sales performance by region,Marketing,Profit Margin,Predictive,0.95,1100,2.0,Low,comparative_analysis,False,False
+INT-101638,2025-07-11 17:10:31.855520,Sales,Manager,What is customer churn rate?,Marketing,Revenue,Predictive,0.68,582,4.0,High,performance_monitoring,False,False
+INT-101825,2025-11-23 04:52:31.856090,Operations,Executive,What is customer churn rate?,Sales,Conversion Rate,Trend Analysis,0.93,1300,3.0,Medium,performance_monitoring,False,False
+INT-100154,2025-04-30 00:02:31.852240,Finance,Executive,Show monthly revenue trend,Revenue,Conversion Rate,Descriptive,0.73,1697,4.0,,performance_monitoring,False,True
+INT-103053,2025-09-30 16:15:31.859238,Operations,Executive,Which campaign had highest ROI?,Customer,Churn Rate,Descriptive,0.62,1619,2.0,High,operational_optimization,False,False
+INT-100395,2025-03-31 18:15:31.852749,Operations,Manager,Show monthly revenue trend,Finance,Conversion Rate,Predictive,0.96,1920,5.0,Medium,performance_monitoring,False,False
+INT-101709,2025-12-23 11:24:31.855676,Operations,Manager,What is customer churn rate?,Sales,Revenue,Predictive,0.94,1660,3.0,High,performance_monitoring,False,False
+INT-101279,2025-07-20 02:37:31.854722,Marketing,Intern,Compare sales performance by region,Finance,Revenue,Predictive,0.6,700,,,comparative_analysis,True,True
+INT-100271,2025-05-18 22:33:31.852511,Sales,Analyst,Compare sales performance by region,Marketing,Profit Margin,Trend Analysis,0.78,421,5.0,High,comparative_analysis,False,False
+INT-101312,2025-07-29 18:28:31.854804,Marketing,Intern,Forecast next quarter revenue,Finance,Profit Margin,Trend Analysis,0.99,2087,,Medium,forecasting,True,False
+INT-102493,2025-08-16 00:57:31.857934,Operations,Intern,What is customer churn rate?,Marketing,Revenue,Predictive,0.8,1862,2.0,Medium,performance_monitoring,False,False
+INT-101433,2025-12-01 13:30:31.855104,Operations,Executive,What is customer churn rate?,Finance,Profit Margin,Trend Analysis,0.98,931,2.0,High,performance_monitoring,False,False
+INT-100227,2026-02-06 03:29:31.852428,Marketing,Manager,Forecast next quarter revenue,Finance,Conversion Rate,Trend Analysis,0.78,646,4.0,Low,forecasting,False,False
+INT-101546,2025-12-21 13:07:31.855341,HR,Manager,What is customer churn rate?,Marketing,Revenue,Predictive,0.84,2024,5.0,Low,performance_monitoring,False,False
+INT-100418,2025-04-05 13:23:31.852812,Operations,Manager,Which campaign had highest ROI?,Finance,Churn Rate,Trend Analysis,0.95,1665,5.0,High,operational_optimization,False,False
+INT-102321,2025-05-24 19:29:31.857533,Operations,Intern,Show monthly revenue trend,Marketing,Revenue,Descriptive,0.86,641,3.0,Medium,performance_monitoring,False,False
+INT-100079,2025-07-01 10:14:31.852083,HR,Executive,Compare sales performance by region,Sales,Churn Rate,Predictive,0.8,2362,2.0,High,comparative_analysis,False,False
+INT-100460,2025-12-25 21:34:31.852912,Sales,Intern,Forecast next quarter revenue,Customer,Profit Margin,Descriptive,0.81,1954,1.0,Medium,forecasting,False,False
+INT-100291,2025-08-17 23:26:31.852551,Sales,Intern,Show monthly revenue trend,Finance,Profit Margin,Trend Analysis,0.94,2464,3.0,Medium,performance_monitoring,False,False
+INT-102101,2025-08-04 04:44:31.857051,HR,Manager,Forecast next quarter revenue,Customer,Churn Rate,Predictive,0.82,1914,3.0,,forecasting,False,True
+INT-102105,2026-01-03 07:13:31.857058,Finance,Manager,Show monthly revenue trend,Revenue,ROI,Trend Analysis,0.85,1654,2.0,Medium,performance_monitoring,False,False
+INT-100356,2025-04-29 11:58:31.852673,HR,Executive,Forecast next quarter revenue,Marketing,Profit Margin,Trend Analysis,0.89,223,3.0,Medium,forecasting,False,False
+INT-101547,2025-09-24 19:35:31.855343,HR,Analyst,What is customer churn rate?,Marketing,Conversion Rate,Trend Analysis,0.95,690,,High,performance_monitoring,True,False
+INT-100997,2025-02-28 02:26:31.854129,Sales,Analyst,Which campaign had highest ROI?,Revenue,Profit Margin,Trend Analysis,0.8,963,3.0,Medium,operational_optimization,False,False
+INT-103132,2025-11-20 02:36:31.859464,Operations,Analyst,Forecast next quarter revenue,Customer,ROI,Descriptive,0.79,618,3.0,Medium,forecasting,False,False
+INT-101892,2025-10-16 21:08:31.856292,Marketing,Executive,Which campaign had highest ROI?,Customer,Revenue,Trend Analysis,0.95,1875,5.0,High,operational_optimization,False,False
+INT-102368,2025-11-16 05:25:31.857629,Operations,Intern,Compare sales performance by region,Sales,Revenue,Descriptive,0.65,1463,3.0,Low,comparative_analysis,False,False
+INT-103155,2025-09-29 19:26:31.859540,HR,Analyst,Compare sales performance by region,Customer,ROI,Descriptive,0.92,2384,3.0,Low,comparative_analysis,False,False
+INT-100950,2025-05-04 10:08:31.854040,HR,Manager,Forecast next quarter revenue,Revenue,Revenue,Predictive,0.7,2363,3.0,High,forecasting,False,False
+INT-100936,2025-09-02 08:41:31.854014,Sales,Executive,Compare sales performance by region,Marketing,Churn Rate,Descriptive,0.76,1218,2.0,Low,comparative_analysis,False,False
+INT-101193,2026-01-31 06:14:31.854534,Marketing,Executive,Show monthly revenue trend,Finance,Revenue,Descriptive,0.96,1069,4.0,Medium,performance_monitoring,False,False
+INT-101721,2025-04-01 17:13:31.855697,Finance,Executive,Forecast next quarter revenue,Sales,Conversion Rate,Trend Analysis,0.68,2056,4.0,Medium,forecasting,False,False
+INT-100794,2025-11-11 10:20:31.853716,HR,Analyst,Show monthly revenue trend,Customer,Revenue,Descriptive,0.77,1700,5.0,Low,performance_monitoring,False,False
+INT-102364,2025-10-11 12:52:31.857616,Finance,Executive,Show monthly revenue trend,Finance,Profit Margin,Descriptive,0.91,2445,1.0,Low,performance_monitoring,False,False
+INT-101936,2025-09-20 02:55:31.856453,Finance,Analyst,Show monthly revenue trend,Sales,Profit Margin,Trend Analysis,0.99,566,2.0,Low,performance_monitoring,False,False
+INT-102589,2025-04-07 06:48:31.858193,Sales,Intern,Compare sales performance by region,Revenue,ROI,Trend Analysis,0.82,518,1.0,Medium,comparative_analysis,False,False
+INT-100787,2025-07-24 02:04:31.853704,HR,Analyst,Show monthly revenue trend,Customer,Churn Rate,Predictive,0.91,535,3.0,Low,performance_monitoring,False,False
+INT-101284,2025-06-12 06:10:31.854731,Operations,Executive,Compare sales performance by region,Marketing,Profit Margin,Trend Analysis,0.84,1885,5.0,Medium,comparative_analysis,False,False
+INT-101956,2025-09-22 09:28:31.856537,HR,Analyst,What is customer churn rate?,Sales,Churn Rate,Descriptive,0.74,2229,4.0,Medium,performance_monitoring,False,False
+INT-102341,2025-11-05 08:16:31.857570,Sales,Analyst,Forecast next quarter revenue,Finance,ROI,Predictive,0.86,1622,2.0,Low,forecasting,False,False
+INT-102883,2025-09-10 03:02:31.858813,Sales,Analyst,Show monthly revenue trend,Customer,Profit Margin,Trend Analysis,0.81,1244,3.0,High,performance_monitoring,False,False
+INT-101358,2025-03-09 06:19:31.854888,Operations,Manager,Show monthly revenue trend,Marketing,ROI,Predictive,0.72,1988,3.0,High,performance_monitoring,False,False
+INT-100337,2026-01-27 18:55:31.852638,HR,Analyst,Compare sales performance by region,Finance,Churn Rate,Descriptive,0.92,527,3.0,Medium,comparative_analysis,False,False
+INT-102038,2025-08-20 20:35:31.856873,HR,Executive,Compare sales performance by region,Customer,Churn Rate,Descriptive,0.96,941,3.0,High,comparative_analysis,False,False
+INT-100759,2025-11-21 07:55:31.853628,Marketing,Manager,Show monthly revenue trend,Finance,ROI,Trend Analysis,0.62,1996,2.0,High,performance_monitoring,False,False
+INT-100225,2025-04-08 07:51:31.852424,Sales,Intern,Compare sales performance by region,Customer,Conversion Rate,Predictive,0.62,1922,4.0,Medium,comparative_analysis,False,False
+INT-101276,2025-11-05 16:37:31.854717,Sales,Manager,What is customer churn rate?,Revenue,Profit Margin,Predictive,0.74,1479,4.0,High,performance_monitoring,False,False
+INT-101365,2025-11-30 04:02:31.854903,Marketing,Executive,Which campaign had highest ROI?,Finance,Revenue,Trend Analysis,0.76,1682,3.0,Low,operational_optimization,False,False
+INT-101682,2025-08-27 03:32:31.855625,Finance,Manager,Show monthly revenue trend,Sales,Profit Margin,Predictive,0.62,1486,,Low,performance_monitoring,True,False
+INT-101251,2025-12-18 06:12:31.854670,Finance,Executive,Forecast next quarter revenue,Customer,Profit Margin,Predictive,0.91,1220,5.0,,forecasting,False,True
+INT-102772,2025-05-18 01:28:31.858575,Finance,Executive,What is customer churn rate?,Marketing,ROI,Predictive,0.73,1825,4.0,Medium,performance_monitoring,False,False
+INT-102514,2025-06-28 14:58:31.858011,HR,Executive,What is customer churn rate?,Customer,Profit Margin,Trend Analysis,0.97,788,3.0,High,performance_monitoring,False,False
+INT-101109,2025-08-15 21:45:31.854353,Finance,Executive,Forecast next quarter revenue,Revenue,Revenue,Descriptive,0.76,1308,1.0,Low,forecasting,False,False
+INT-100404,2025-12-29 00:25:31.852772,HR,Analyst,Forecast next quarter revenue,Marketing,ROI,Trend Analysis,0.65,1768,3.0,High,forecasting,False,False
+INT-102388,2025-12-11 12:47:31.857668,Marketing,Analyst,Forecast next quarter revenue,Marketing,Revenue,Trend Analysis,0.91,1000,2.0,Low,forecasting,False,False
+INT-101664,2025-09-19 01:36:31.855592,HR,Analyst,Forecast next quarter revenue,Finance,Revenue,Predictive,0.8,1045,3.0,Medium,forecasting,False,False
+INT-102962,2025-06-26 20:13:31.858980,Sales,Analyst,Which campaign had highest ROI?,Sales,Revenue,Trend Analysis,0.9,2364,3.0,Low,operational_optimization,False,False
+INT-101345,2025-10-18 11:25:31.854865,HR,Manager,Which campaign had highest ROI?,Marketing,Revenue,Descriptive,0.63,1775,3.0,Low,operational_optimization,False,False
+INT-100758,2025-07-17 19:21:31.853626,Operations,Manager,What is customer churn rate?,Sales,Conversion Rate,Trend Analysis,0.76,1045,3.0,Medium,performance_monitoring,False,False
+INT-100089,2025-06-04 12:07:31.852101,Finance,Executive,Forecast next quarter revenue,Revenue,Churn Rate,Predictive,0.96,1857,,Medium,forecasting,True,False
+INT-101918,2025-12-02 04:04:31.856367,Operations,Intern,Which campaign had highest ROI?,Finance,Conversion Rate,Descriptive,0.63,1061,1.0,Medium,operational_optimization,False,False
+INT-102346,2025-06-15 03:12:31.857579,HR,Intern,Show monthly revenue trend,Finance,Churn Rate,Predictive,0.62,2400,2.0,Medium,performance_monitoring,False,False
+INT-100510,2025-04-15 04:13:31.853003,Finance,Manager,Forecast next quarter revenue,Sales,Conversion Rate,Predictive,0.78,1748,3.0,Medium,forecasting,False,False
+INT-102397,2026-01-31 16:57:31.857690,Sales,Analyst,Which campaign had highest ROI?,Marketing,Conversion Rate,Descriptive,0.6,2228,3.0,Medium,operational_optimization,False,False
+INT-101646,2025-09-16 10:31:31.855542,Marketing,Intern,Which campaign had highest ROI?,Revenue,Churn Rate,Descriptive,0.97,1462,4.0,Low,operational_optimization,False,False
+INT-102448,2025-09-17 03:25:31.857843,Finance,Intern,Compare sales performance by region,Marketing,Revenue,Predictive,0.6,997,3.0,Low,comparative_analysis,False,False
+INT-101899,2025-03-29 03:15:31.856315,HR,Intern,Forecast next quarter revenue,Revenue,Revenue,Trend Analysis,0.74,1007,3.0,Medium,forecasting,False,False
+INT-101062,2025-10-19 03:56:31.854265,HR,Executive,Forecast next quarter revenue,Sales,ROI,Trend Analysis,0.81,843,5.0,Low,forecasting,False,False
+INT-102555,2025-08-13 20:08:31.858105,Sales,Analyst,Forecast next quarter revenue,Marketing,Revenue,Predictive,0.83,1398,2.0,,forecasting,False,True
+INT-101117,2025-06-21 15:16:31.854379,Operations,Analyst,Compare sales performance by region,Marketing,Conversion Rate,Trend Analysis,0.94,1882,3.0,,comparative_analysis,False,True
+INT-101024,2025-12-21 01:02:31.854193,Sales,Analyst,Forecast next quarter revenue,Marketing,Revenue,Predictive,0.96,1862,3.0,Medium,forecasting,False,False
+INT-101705,2025-12-19 17:08:31.855668,Finance,Analyst,Which campaign had highest ROI?,Sales,Profit Margin,Descriptive,0.73,1642,3.0,Medium,operational_optimization,False,False
+INT-102224,2025-03-21 12:20:31.857309,HR,Analyst,What is customer churn rate?,Finance,ROI,Predictive,0.93,1045,1.0,Medium,performance_monitoring,False,False
+INT-100746,2025-12-25 05:07:31.853603,Finance,Manager,Show monthly revenue trend,Sales,Profit Margin,Predictive,0.96,2422,4.0,Low,performance_monitoring,False,False
+INT-102400,2025-04-27 12:14:31.857700,HR,Intern,Show monthly revenue trend,Sales,Profit Margin,Predictive,0.67,1557,3.0,Medium,performance_monitoring,False,False
+INT-101799,2025-06-28 03:01:31.856037,Sales,Analyst,Show monthly revenue trend,Finance,Revenue,Trend Analysis,0.88,2163,1.0,High,performance_monitoring,False,False
+INT-101298,2025-10-19 05:10:31.854776,HR,Analyst,Forecast next quarter revenue,Marketing,Revenue,Descriptive,0.93,722,4.0,High,forecasting,False,False
+INT-101357,2025-11-02 20:35:31.854887,Marketing,Executive,Which campaign had highest ROI?,Sales,Profit Margin,Descriptive,0.67,1096,1.0,High,operational_optimization,False,False
+INT-102061,2025-12-02 22:59:31.856941,Operations,Intern,Show monthly revenue trend,Customer,Revenue,Trend Analysis,0.97,2260,3.0,Medium,performance_monitoring,False,False
+INT-101493,2025-07-30 12:17:31.855244,Marketing,Manager,Compare sales performance by region,Sales,ROI,Trend Analysis,0.64,1129,4.0,Medium,comparative_analysis,False,False
+INT-100197,2025-04-25 02:01:31.852348,Sales,Intern,Forecast next quarter revenue,Sales,Conversion Rate,Descriptive,0.67,729,3.0,High,forecasting,False,False
+INT-100988,2025-10-16 09:27:31.854112,Finance,Analyst,What is customer churn rate?,Sales,Revenue,Trend Analysis,0.64,1409,,Low,performance_monitoring,True,False
+INT-102186,2025-04-17 16:53:31.857225,HR,Analyst,Compare sales performance by region,Customer,Profit Margin,Predictive,0.9,1003,4.0,High,comparative_analysis,False,False
+INT-103099,2025-09-08 08:47:31.859362,Operations,Analyst,Show monthly revenue trend,Finance,Profit Margin,Trend Analysis,0.86,813,4.0,High,performance_monitoring,False,False
+INT-101016,2025-03-13 13:15:31.854178,Operations,Manager,Forecast next quarter revenue,Revenue,Churn Rate,Predictive,0.87,1214,1.0,Low,forecasting,False,False
+INT-102544,2026-01-02 18:51:31.858085,HR,Analyst,Compare sales performance by region,Customer,Churn Rate,Trend Analysis,0.94,588,,Medium,comparative_analysis,True,False
+INT-102580,2025-08-22 11:09:31.858177,Sales,Analyst,Which campaign had highest ROI?,Marketing,Revenue,Descriptive,0.91,1600,4.0,Low,operational_optimization,False,False
+INT-102379,2025-12-14 17:18:31.857652,Marketing,Intern,Compare sales performance by region,Finance,ROI,Descriptive,0.87,1712,4.0,Low,comparative_analysis,False,False
+INT-102834,2025-09-15 04:48:31.858700,HR,Analyst,Compare sales performance by region,Finance,Churn Rate,Predictive,0.69,366,4.0,Low,comparative_analysis,False,False
+INT-100672,2025-03-29 09:52:31.853417,Operations,Manager,Compare sales performance by region,Sales,Conversion Rate,Trend Analysis,0.86,1780,2.0,Medium,comparative_analysis,False,False
+INT-101442,2025-08-18 05:49:31.855120,Marketing,Executive,What is customer churn rate?,Sales,Revenue,Descriptive,0.98,535,3.0,High,performance_monitoring,False,False
+INT-103055,2025-04-18 22:45:31.859241,Marketing,Manager,What is customer churn rate?,Customer,Profit Margin,Descriptive,0.79,829,,Medium,performance_monitoring,True,False
+INT-101640,2025-04-07 05:19:31.855524,Operations,Analyst,What is customer churn rate?,Finance,ROI,Predictive,0.79,1852,4.0,Medium,performance_monitoring,False,False
+INT-101131,2025-04-08 00:36:31.854416,Sales,Analyst,What is customer churn rate?,Marketing,Revenue,Descriptive,0.62,1397,4.0,Medium,performance_monitoring,False,False
+INT-100243,2025-07-14 08:13:31.852459,Finance,Intern,Which campaign had highest ROI?,Sales,Profit Margin,Predictive,0.73,819,5.0,,operational_optimization,False,True
+INT-100438,2026-01-11 14:07:31.852849,HR,Analyst,Which campaign had highest ROI?,Revenue,Revenue,Trend Analysis,0.62,2051,5.0,Low,operational_optimization,False,False
+INT-100175,2025-09-14 05:43:31.852301,Marketing,Intern,Show monthly revenue trend,Finance,Conversion Rate,Descriptive,0.87,2274,5.0,,performance_monitoring,False,True
+INT-100062,2026-02-02 07:33:31.852051,Operations,Intern,Which campaign had highest ROI?,Revenue,Conversion Rate,Predictive,0.81,250,1.0,High,operational_optimization,False,False
+INT-102915,2025-09-06 15:46:31.858883,Finance,Intern,Compare sales performance by region,Customer,ROI,Predictive,0.64,1082,3.0,Low,comparative_analysis,False,False
+INT-101898,2025-10-06 07:03:31.856312,Marketing,Analyst,Forecast next quarter revenue,Revenue,Profit Margin,Trend Analysis,0.68,598,2.0,Low,forecasting,False,False
+INT-101541,2025-05-10 14:13:31.855332,HR,Manager,Which campaign had highest ROI?,Marketing,Conversion Rate,Trend Analysis,0.95,936,,Medium,operational_optimization,True,False
+INT-101788,2025-07-13 20:23:31.855828,Operations,Analyst,Compare sales performance by region,Revenue,Revenue,Trend Analysis,0.97,613,4.0,High,comparative_analysis,False,False
+INT-102949,2025-08-21 19:21:31.858956,Marketing,Manager,Compare sales performance by region,Marketing,Churn Rate,Trend Analysis,0.7,1218,3.0,Medium,comparative_analysis,False,False
+INT-101054,2025-06-23 12:46:31.854251,Operations,Intern,Forecast next quarter revenue,Revenue,Profit Margin,Trend Analysis,0.85,650,1.0,Low,forecasting,False,False
+INT-102880,2025-10-25 04:49:31.858807,Finance,Executive,Show monthly revenue trend,Finance,Profit Margin,Trend Analysis,0.63,2270,4.0,High,performance_monitoring,False,False
+INT-100293,2025-11-21 12:32:31.852555,HR,Analyst,What is customer churn rate?,Customer,Revenue,Trend Analysis,0.8,393,4.0,Medium,performance_monitoring,False,False
+INT-100592,2026-02-04 11:45:31.853176,Operations,Executive,Compare sales performance by region,Revenue,Conversion Rate,Trend Analysis,0.75,1049,,Medium,comparative_analysis,True,False
+INT-101425,2026-01-23 10:41:31.855082,Marketing,Executive,Which campaign had highest ROI?,Marketing,Churn Rate,Predictive,0.67,1363,4.0,High,operational_optimization,False,False
+INT-102399,2025-08-29 16:53:31.857696,Sales,Analyst,What is customer churn rate?,Finance,Conversion Rate,Descriptive,0.91,2224,3.0,Medium,performance_monitoring,False,False
+INT-100948,2025-12-09 09:06:31.854036,Operations,Executive,What is customer churn rate?,Finance,Conversion Rate,Descriptive,0.61,1746,1.0,High,performance_monitoring,False,False
+INT-102583,2026-01-13 00:40:31.858183,Marketing,Executive,Show monthly revenue trend,Customer,ROI,Predictive,0.95,796,5.0,,performance_monitoring,False,True
+INT-101960,2025-04-19 04:44:31.856550,Marketing,Executive,Compare sales performance by region,Finance,ROI,Descriptive,0.75,1297,3.0,Medium,comparative_analysis,False,False
+INT-101159,2025-03-02 01:12:31.854472,Operations,Executive,Forecast next quarter revenue,Revenue,Revenue,Descriptive,0.82,515,,High,forecasting,True,False
+INT-102754,2025-08-02 14:02:31.858541,Finance,Intern,Which campaign had highest ROI?,Sales,Profit Margin,Predictive,0.79,1180,3.0,High,operational_optimization,False,False
+INT-100881,2025-04-10 20:36:31.853897,Operations,Intern,Show monthly revenue trend,Sales,Revenue,Predictive,0.9,2104,1.0,Low,performance_monitoring,False,False
+INT-102607,2025-12-27 20:32:31.858230,Finance,Analyst,Show monthly revenue trend,Customer,Conversion Rate,Descriptive,0.96,2025,2.0,Medium,performance_monitoring,False,False
+INT-102734,2025-05-02 14:17:31.858505,HR,Manager,What is customer churn rate?,Revenue,Revenue,Predictive,0.67,474,4.0,,performance_monitoring,False,True
+INT-100796,2025-07-09 20:23:31.853720,Operations,Analyst,Forecast next quarter revenue,Marketing,Conversion Rate,Predictive,0.97,2258,5.0,Medium,forecasting,False,False
+INT-101519,2025-09-26 15:50:31.855292,Operations,Analyst,What is customer churn rate?,Customer,Conversion Rate,Descriptive,0.87,270,5.0,Medium,performance_monitoring,False,False
+INT-100369,2025-10-29 18:46:31.852698,Operations,Executive,Show monthly revenue trend,Marketing,Profit Margin,Predictive,0.62,2142,2.0,,performance_monitoring,False,True
+INT-100646,2025-09-05 13:07:31.853331,Finance,Executive,Which campaign had highest ROI?,Sales,Profit Margin,Predictive,0.7,2173,2.0,Medium,operational_optimization,False,False
+INT-102450,2025-04-04 05:09:31.857850,HR,Executive,Which campaign had highest ROI?,Finance,Profit Margin,Trend Analysis,0.75,361,4.0,High,operational_optimization,False,False
+INT-102441,2025-03-19 07:47:31.857820,Marketing,Intern,Show monthly revenue trend,Marketing,Profit Margin,Descriptive,0.74,438,,Low,performance_monitoring,True,False
+INT-100374,2025-05-23 09:16:31.852710,Sales,Analyst,Which campaign had highest ROI?,Finance,Churn Rate,Predictive,0.69,2472,2.0,Medium,operational_optimization,False,False
+INT-100277,2025-05-17 00:22:31.852522,Finance,Manager,Forecast next quarter revenue,Marketing,Churn Rate,Descriptive,0.81,492,5.0,Low,forecasting,False,False
+INT-101955,2025-03-04 11:44:31.856534,HR,Manager,Show monthly revenue trend,Revenue,ROI,Predictive,0.87,1045,3.0,Low,performance_monitoring,False,False
+INT-102643,2025-07-28 04:55:31.858298,Marketing,Manager,Forecast next quarter revenue,Marketing,Revenue,Descriptive,0.66,1578,5.0,Low,forecasting,False,False
+INT-101121,2025-05-25 14:09:31.854392,Sales,Manager,What is customer churn rate?,Customer,ROI,Trend Analysis,0.6,1020,3.0,Low,performance_monitoring,False,False
+INT-102619,2025-11-05 08:31:31.858251,Operations,Intern,Compare sales performance by region,Customer,Churn Rate,Predictive,0.77,1953,5.0,Low,comparative_analysis,False,False
+INT-100659,2025-07-18 05:56:31.853375,Finance,Executive,What is customer churn rate?,Revenue,Profit Margin,Trend Analysis,0.68,1953,4.0,High,performance_monitoring,False,False
+INT-100112,2025-09-11 02:28:31.852145,Operations,Executive,What is customer churn rate?,Finance,ROI,Descriptive,0.73,1121,1.0,Medium,performance_monitoring,False,False
+INT-102026,2026-01-06 07:58:31.856842,Sales,Intern,Show monthly revenue trend,Sales,Revenue,Descriptive,0.96,646,2.0,Medium,performance_monitoring,False,False
+INT-100087,2025-06-09 21:33:31.852097,Sales,Intern,Show monthly revenue trend,Finance,Profit Margin,Descriptive,0.91,262,3.0,High,performance_monitoring,False,False
+INT-102706,2025-03-17 19:49:31.858429,Sales,Analyst,What is customer churn rate?,Revenue,Revenue,Predictive,0.94,255,5.0,Medium,performance_monitoring,False,False
+INT-100749,2025-08-21 21:10:31.853609,Finance,Manager,Forecast next quarter revenue,Sales,Conversion Rate,Descriptive,0.94,838,3.0,Medium,forecasting,False,False
+INT-101435,2025-07-03 19:25:31.855107,Operations,Intern,What is customer churn rate?,Sales,ROI,Trend Analysis,0.68,2064,2.0,Medium,performance_monitoring,False,False
+INT-100333,2025-06-06 22:42:31.852631,Operations,Manager,Which campaign had highest ROI?,Sales,Churn Rate,Predictive,0.72,1063,,Medium,operational_optimization,True,False
+INT-100370,2025-12-06 07:23:31.852699,Marketing,Analyst,What is customer churn rate?,Customer,Churn Rate,Predictive,0.69,1646,,Low,performance_monitoring,True,False
+INT-100400,2025-11-21 15:00:31.852758,Finance,Executive,What is customer churn rate?,Customer,Churn Rate,Descriptive,0.97,1512,3.0,,performance_monitoring,False,True
+INT-103074,2026-01-29 15:17:31.859290,HR,Analyst,Show monthly revenue trend,Marketing,Conversion Rate,Trend Analysis,0.85,2155,1.0,Low,performance_monitoring,False,False
+INT-103172,2025-06-19 02:26:31.859592,Finance,Analyst,What is customer churn rate?,Revenue,Revenue,Descriptive,0.81,2392,1.0,Low,performance_monitoring,False,False
+INT-101416,2025-04-16 02:43:31.855053,Sales,Analyst,Which campaign had highest ROI?,Revenue,Conversion Rate,Trend Analysis,0.77,2477,2.0,,operational_optimization,False,True
+INT-102973,2025-07-02 23:52:31.859028,HR,Analyst,Forecast next quarter revenue,Sales,Churn Rate,Descriptive,0.84,1085,5.0,Medium,forecasting,False,False
+INT-102123,2026-01-18 12:23:31.857093,Marketing,Intern,Which campaign had highest ROI?,Finance,Profit Margin,Predictive,0.61,1026,3.0,Low,operational_optimization,False,False
+INT-101735,2025-08-08 08:15:31.855723,Sales,Executive,Show monthly revenue trend,Sales,Revenue,Descriptive,0.98,1245,2.0,Low,performance_monitoring,False,False
+INT-100764,2025-06-18 05:43:31.853649,Marketing,Analyst,What is customer churn rate?,Revenue,ROI,Trend Analysis,0.72,1163,2.0,High,performance_monitoring,False,False
+INT-101518,2025-04-05 18:38:31.855290,HR,Manager,What is customer churn rate?,Sales,ROI,Descriptive,0.78,2019,3.0,High,performance_monitoring,False,False
+INT-103110,2025-03-30 07:00:31.859397,Sales,Intern,Compare sales performance by region,Marketing,Profit Margin,Descriptive,0.72,1867,3.0,Medium,comparative_analysis,False,False
+INT-101438,2025-07-30 10:21:31.855112,Marketing,Manager,Which campaign had highest ROI?,Finance,ROI,Trend Analysis,0.81,259,4.0,,operational_optimization,False,True
+INT-102539,2025-11-24 03:27:31.858076,Marketing,Executive,What is customer churn rate?,Sales,ROI,Predictive,0.91,1384,4.0,Medium,performance_monitoring,False,False
+INT-100066,2025-07-27 17:45:31.852058,Marketing,Executive,Show monthly revenue trend,Sales,Conversion Rate,Trend Analysis,0.65,1274,5.0,Low,performance_monitoring,False,False
+INT-102079,2026-01-21 15:02:31.856992,HR,Manager,Forecast next quarter revenue,Finance,ROI,Descriptive,0.97,760,,Medium,forecasting,True,False
+INT-102631,2025-11-16 16:03:31.858276,HR,Executive,Forecast next quarter revenue,Customer,Churn Rate,Predictive,0.87,974,4.0,Medium,forecasting,False,False
+INT-100343,2025-09-19 12:54:31.852649,HR,Executive,Show monthly revenue trend,Sales,Profit Margin,Predictive,0.69,720,4.0,Low,performance_monitoring,False,False
+INT-102961,2025-10-25 04:15:31.858978,Operations,Analyst,Forecast next quarter revenue,Marketing,ROI,Descriptive,0.82,1394,5.0,Medium,forecasting,False,False
+INT-100585,2025-12-21 15:15:31.853163,Operations,Intern,What is customer churn rate?,Finance,ROI,Trend Analysis,0.97,1075,3.0,Low,performance_monitoring,False,False
+INT-101202,2025-12-18 17:41:31.854551,Finance,Analyst,What is customer churn rate?,Revenue,Conversion Rate,Descriptive,0.74,2158,5.0,,performance_monitoring,False,True
+INT-101058,2025-03-12 10:03:31.854258,Marketing,Analyst,Which campaign had highest ROI?,Sales,Profit Margin,Descriptive,0.73,2332,4.0,Medium,operational_optimization,False,False
+INT-101629,2026-01-07 23:56:31.855504,HR,Analyst,Forecast next quarter revenue,Finance,ROI,Descriptive,0.75,1929,3.0,High,forecasting,False,False
+INT-101208,2026-01-07 12:35:31.854563,Marketing,Analyst,Compare sales performance by region,Marketing,Conversion Rate,Descriptive,0.89,1483,5.0,Medium,comparative_analysis,False,False
+INT-102495,2025-06-13 00:47:31.857940,Marketing,Executive,Compare sales performance by region,Marketing,Conversion Rate,Descriptive,0.97,851,2.0,Low,comparative_analysis,False,False
+INT-101792,2025-09-28 06:27:31.856023,Sales,Intern,What is customer churn rate?,Customer,Revenue,Descriptive,0.83,499,3.0,Medium,performance_monitoring,False,False
+INT-101779,2025-05-13 08:17:31.855803,HR,Analyst,What is customer churn rate?,Revenue,ROI,Descriptive,0.87,1605,3.0,Low,performance_monitoring,False,False
+INT-100233,2025-07-26 12:45:31.852441,HR,Executive,Which campaign had highest ROI?,Marketing,Profit Margin,Trend Analysis,0.72,333,4.0,Medium,operational_optimization,False,False
+INT-102230,2025-09-20 16:14:31.857320,Operations,Executive,What is customer churn rate?,Customer,ROI,Predictive,0.67,636,1.0,Medium,performance_monitoring,False,False
+INT-102175,2025-07-11 16:40:31.857205,Operations,Analyst,Show monthly revenue trend,Sales,Revenue,Descriptive,0.71,502,,Low,performance_monitoring,True,False
+INT-101849,2025-08-05 12:02:31.856133,Marketing,Manager,Which campaign had highest ROI?,Sales,ROI,Predictive,0.9,1753,1.0,Medium,operational_optimization,False,False
+INT-100214,2025-07-22 16:14:31.852405,Finance,Executive,Forecast next quarter revenue,Customer,Profit Margin,Predictive,0.74,1832,4.0,High,forecasting,False,False
+INT-100916,2025-04-30 16:17:31.853975,Finance,Manager,What is customer churn rate?,Marketing,Conversion Rate,Trend Analysis,0.89,222,3.0,Medium,performance_monitoring,False,False
+INT-101250,2025-10-30 00:06:31.854668,HR,Executive,What is customer churn rate?,Revenue,Churn Rate,Descriptive,0.79,534,4.0,,performance_monitoring,False,True
+INT-102407,2025-04-26 16:56:31.857715,Sales,Executive,Compare sales performance by region,Revenue,Conversion Rate,Trend Analysis,0.87,813,4.0,Medium,comparative_analysis,False,False
+INT-102960,2025-12-23 11:43:31.858976,Marketing,Intern,Show monthly revenue trend,Revenue,ROI,Descriptive,0.9,992,5.0,Medium,performance_monitoring,False,False
+INT-100554,2025-11-19 19:22:31.853105,Operations,Executive,Which campaign had highest ROI?,Customer,Revenue,Descriptive,0.63,823,5.0,High,operational_optimization,False,False
+INT-102445,2025-04-24 23:31:31.857833,HR,Executive,Which campaign had highest ROI?,Revenue,Churn Rate,Trend Analysis,0.94,1686,5.0,High,operational_optimization,False,False
+INT-100255,2025-05-29 03:28:31.852481,Finance,Executive,Show monthly revenue trend,Finance,Churn Rate,Descriptive,0.8,1416,1.0,Low,performance_monitoring,False,False
+INT-102672,2025-04-24 07:50:31.858363,Sales,Manager,What is customer churn rate?,Finance,Revenue,Descriptive,0.8,593,4.0,Low,performance_monitoring,False,False
+INT-102304,2025-05-21 10:03:31.857502,Marketing,Intern,Show monthly revenue trend,Finance,ROI,Descriptive,0.97,1328,3.0,Medium,performance_monitoring,False,False
+INT-102074,2026-02-08 04:20:31.856978,HR,Intern,Forecast next quarter revenue,Sales,ROI,Descriptive,0.85,533,5.0,Low,forecasting,False,False
+INT-100268,2025-04-10 08:22:31.852505,Operations,Executive,What is customer churn rate?,Customer,Conversion Rate,Descriptive,0.61,210,4.0,Medium,performance_monitoring,False,False
+INT-102424,2025-08-25 17:51:31.857771,Operations,Intern,Which campaign had highest ROI?,Marketing,Revenue,Predictive,0.78,2487,1.0,Low,operational_optimization,False,False
+INT-102618,2025-06-08 13:31:31.858249,Finance,Manager,What is customer churn rate?,Customer,Conversion Rate,Trend Analysis,0.75,1372,,High,performance_monitoring,True,False
+INT-102481,2025-03-25 08:37:31.857910,Operations,Executive,Which campaign had highest ROI?,Customer,Revenue,Predictive,0.73,572,4.0,Medium,operational_optimization,False,False
+INT-100145,2025-12-20 23:26:31.852223,HR,Analyst,Compare sales performance by region,Revenue,Profit Margin,Descriptive,0.67,2153,2.0,Low,comparative_analysis,False,False
+INT-101510,2025-05-08 18:18:31.855275,Finance,Executive,Which campaign had highest ROI?,Sales,ROI,Descriptive,0.94,1855,5.0,High,operational_optimization,False,False
+INT-100844,2025-06-21 17:58:31.853813,Operations,Intern,What is customer churn rate?,Finance,Conversion Rate,Trend Analysis,0.8,615,3.0,Low,performance_monitoring,False,False
+INT-100397,2025-09-18 03:06:31.852753,Finance,Executive,Compare sales performance by region,Finance,Conversion Rate,Descriptive,0.61,1482,5.0,Low,comparative_analysis,False,False
+INT-100453,2025-04-26 03:11:31.852884,Operations,Manager,Which campaign had highest ROI?,Customer,Profit Margin,Descriptive,0.73,2407,2.0,High,operational_optimization,False,False
+INT-101040,2025-06-08 05:07:31.854225,Finance,Manager,Compare sales performance by region,Finance,Profit Margin,Descriptive,0.76,1467,2.0,Low,comparative_analysis,False,False
+INT-102497,2025-10-03 18:32:31.857947,Marketing,Executive,What is customer churn rate?,Sales,Conversion Rate,Predictive,0.76,1269,4.0,Medium,performance_monitoring,False,False
+INT-100536,2025-06-04 07:28:31.853051,Finance,Manager,Compare sales performance by region,Customer,Profit Margin,Trend Analysis,0.85,1071,2.0,Low,comparative_analysis,False,False
+INT-101730,2025-08-28 10:22:31.855714,HR,Intern,Show monthly revenue trend,Sales,Conversion Rate,Descriptive,0.9,900,1.0,,performance_monitoring,False,True
+INT-101449,2025-12-25 20:37:31.855132,Finance,Executive,Show monthly revenue trend,Marketing,Churn Rate,Trend Analysis,0.78,1159,2.0,Medium,performance_monitoring,False,False
+INT-100041,2025-08-14 10:11:31.852001,Sales,Analyst,Which campaign had highest ROI?,Finance,Churn Rate,Predictive,0.98,417,3.0,Medium,operational_optimization,False,False
+INT-102071,2025-08-04 09:13:31.856969,HR,Executive,What is customer churn rate?,Marketing,Revenue,Trend Analysis,0.92,676,2.0,Low,performance_monitoring,False,False
+INT-102553,2025-04-25 01:22:31.858102,Marketing,Intern,Compare sales performance by region,Revenue,Revenue,Predictive,0.61,367,3.0,Medium,comparative_analysis,False,False
+INT-101262,2025-12-06 00:05:31.854691,Marketing,Intern,What is customer churn rate?,Revenue,Revenue,Descriptive,0.71,1730,4.0,Low,performance_monitoring,False,False
+INT-101711,2025-03-10 08:38:31.855679,HR,Intern,Show monthly revenue trend,Revenue,ROI,Trend Analysis,0.79,1511,5.0,Low,performance_monitoring,False,False
+INT-102786,2025-11-10 12:36:31.858600,Finance,Analyst,Which campaign had highest ROI?,Sales,Churn Rate,Predictive,0.83,802,3.0,High,operational_optimization,False,False
+INT-100714,2025-07-04 19:05:31.853540,Finance,Manager,Which campaign had highest ROI?,Marketing,Churn Rate,Descriptive,0.7,1979,4.0,Medium,operational_optimization,False,False
+INT-100558,2025-08-05 12:42:31.853113,Sales,Analyst,Which campaign had highest ROI?,Finance,Churn Rate,Predictive,0.94,1317,2.0,Low,operational_optimization,False,False
+INT-101092,2026-01-14 04:06:31.854320,Marketing,Manager,Which campaign had highest ROI?,Finance,Revenue,Predictive,0.62,2204,3.0,Low,operational_optimization,False,False
+INT-101841,2025-04-07 04:54:31.856119,Sales,Analyst,Which campaign had highest ROI?,Finance,Churn Rate,Trend Analysis,0.86,2313,3.0,Low,operational_optimization,False,False
+INT-101878,2025-07-03 00:08:31.856242,Marketing,Intern,Which campaign had highest ROI?,Marketing,ROI,Predictive,0.85,1342,4.0,Medium,operational_optimization,False,False
+INT-101554,2025-11-10 07:56:31.855355,Sales,Manager,Compare sales performance by region,Customer,Conversion Rate,Trend Analysis,0.94,1686,2.0,High,comparative_analysis,False,False
+INT-100307,2025-11-26 15:39:31.852582,HR,Manager,What is customer churn rate?,Marketing,Conversion Rate,Trend Analysis,0.87,1565,2.0,Low,performance_monitoring,False,False
+INT-101314,2026-01-29 20:30:31.854808,Operations,Intern,Which campaign had highest ROI?,Marketing,Profit Margin,Descriptive,0.98,2331,1.0,,operational_optimization,False,True
+INT-102746,2025-12-06 10:48:31.858527,HR,Analyst,Forecast next quarter revenue,Customer,Profit Margin,Descriptive,0.91,1684,3.0,Medium,forecasting,False,False
+INT-102474,2025-07-18 16:08:31.857898,HR,Analyst,Show monthly revenue trend,Customer,ROI,Descriptive,0.98,2325,2.0,,performance_monitoring,False,True
+INT-101338,2025-05-28 01:50:31.854852,HR,Analyst,Forecast next quarter revenue,Sales,Conversion Rate,Predictive,0.65,2069,3.0,Medium,forecasting,False,False
+INT-101136,2025-06-13 12:25:31.854426,Marketing,Analyst,Which campaign had highest ROI?,Marketing,Churn Rate,Trend Analysis,0.94,2344,5.0,Medium,operational_optimization,False,False
+INT-102434,2025-11-18 11:10:31.857800,HR,Intern,What is customer churn rate?,Marketing,Churn Rate,Predictive,0.96,1710,4.0,Low,performance_monitoring,False,False
+INT-102572,2025-12-08 18:21:31.858163,Sales,Intern,Which campaign had highest ROI?,Revenue,Conversion Rate,Trend Analysis,0.83,239,3.0,Medium,operational_optimization,False,False
+INT-101368,2025-09-01 19:44:31.854913,HR,Manager,Show monthly revenue trend,Revenue,ROI,Predictive,0.73,1038,,Low,performance_monitoring,True,False
+INT-103050,2025-08-25 01:26:31.859233,Finance,Executive,What is customer churn rate?,Customer,Profit Margin,Predictive,0.64,2261,1.0,Medium,performance_monitoring,False,False
