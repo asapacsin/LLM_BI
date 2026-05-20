@@ -2,47 +2,40 @@
 
 An LLM-powered BI decision-support pipeline that classifies business questions, computes grounded metrics from 3,200 chatbot interaction records, and generates executive-style insights. Supports **OpenRouter** (OpenAI-compatible API), **async batch evaluation**, and a **Streamlit** demo with local session persistence.
 
-## Performance summary
+## Evaluation results
 
-Results from the latest local evaluation (`evaluations/reports/`). Re-run commands below to refresh.
+Benchmarks are generated locally under `evaluations/reports/`. Re-run the commands in [Run evaluation](#run-evaluation) to refresh.
 
-### Intent classification (holdout, n=640)
+### Intent classification (primary benchmark)
 
-| Method | Accuracy | Macro F1 | Notes |
-|--------|----------|----------|--------|
-| Rules baseline | **1.00** | **1.00** | Exact match on 5 canonical query templates |
-| OpenRouter (`openai_async`) | **1.00** | **1.00** | Async + deduped to **5 API calls** (~2.2 s wall-clock) |
+The dataset contains only **five canonical query templates**; holdout rows repeat those strings. We report **paraphrase accuracy** on reworded business questions as the main intent metric.
 
-Per-class F1 is 1.00 for: comparative analysis, forecasting, operational optimization, performance monitoring. See [`evaluations/reports/intent_eval_openai_async.md`](evaluations/reports/intent_eval_openai_async.md).
+| Benchmark | Size | Result | Notes |
+|-----------|------|--------|--------|
+| Paraphrase intent (OpenRouter, async) | 23 queries | **91.3%** (21/23) | [`evaluations/sample_queries.json`](evaluations/sample_queries.json) |
+| Template label alignment (rules) | 640 holdout rows | Consistency check only | Not a generalization claim |
 
-### Paraphrase robustness (n=23)
+Details: [`evaluations/reports/evaluation_summary.md`](evaluations/reports/evaluation_summary.md)
 
-| Method | Accuracy |
-|--------|----------|
-| OpenRouter async | **91.3%** (21/23) |
+### Pipeline performance
 
-23 reworded queries from [`evaluations/sample_queries.json`](evaluations/sample_queries.json); ~4.8 s wall-clock with deduped API calls.
+| Metric | Value (10-query async batch) |
+|--------|------------------------------|
+| Mean end-to-end latency | ~6.0 s per query |
+| P50 / P95 | ~5.3 s / ~10.0 s |
+| Holdout LLM eval (deduped) | 5 API calls, ~2.2 s wall-clock |
 
-### End-to-end pipeline latency (10 sample queries, async)
+Each end-to-end run includes intent classification and grounded insight generation. Without an API key, the system uses rule-based intent and template insights (much lower latency).
 
-| Metric | Value |
-|--------|-------|
-| Mean per query | ~6.0 s |
-| P50 | ~5.3 s |
-| P95 | ~10.0 s |
-| Total wall-clock (10 parallel) | ~10.1 s |
+### Insight outputs
 
-Each query = intent classification + grounded insight generation (OpenRouter). Template-only mode (no API key) is much faster (~tens of ms per query).
+Sample LLM responses for five canonical BI questions are in [`evaluations/reports/sample_insights.json`](evaluations/reports/sample_insights.json). Qualitative quality should be assessed with [`docs/EVAL_RUBRIC.md`](docs/EVAL_RUBRIC.md).
 
-### Sample insights (5 canonical queries)
+### Scope and limitations
 
-All 5 template queries matched expected intent; LLM-generated titles and summaries are logged in [`evaluations/reports/sample_insights.json`](evaluations/reports/sample_insights.json).
-
-### Limitations
-
-- Training data contains only **5 unique `user_query` templates** — holdout accuracy is a controlled benchmark, not open-domain NLU.
-- **`query_category`** in raw CSV is often misaligned with query text; not used as ground truth.
-- Insight quality should be scored manually with [`docs/EVAL_RUBRIC.md`](docs/EVAL_RUBRIC.md) (target average ≥ 3.5/5).
+- **Not open-domain NLU** — evaluation reflects a controlled template set plus a small paraphrase suite.
+- **Ground truth** — intent labels are derived from query templates, not independent human annotation at scale.
+- **`query_category`** in the raw CSV is noisy relative to `user_query` and is not used as classification ground truth.
 
 ---
 
@@ -92,8 +85,8 @@ python scripts/run_sample_insights.py
 | File | Content |
 |------|---------|
 | `evaluations/reports/evaluation_summary.md` | Overview metrics |
-| `evaluations/reports/intent_eval_rules.md` | Rules-only holdout eval |
-| `evaluations/reports/intent_eval_openai_async.md` | LLM holdout eval + async stats |
+| `evaluations/reports/intent_eval_rules.md` | Template label-alignment (rules) |
+| `evaluations/reports/intent_eval_openai_async.md` | Template label-alignment (LLM) + async stats |
 | `evaluations/reports/sample_insights.json` | Sample query → insight log |
 
 With an API key, `intent_eval.py` dedupes identical holdout queries (**640 rows → 5 API calls**) and runs them concurrently (`EVAL_CONCURRENCY`).
